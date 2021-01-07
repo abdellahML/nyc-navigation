@@ -16,21 +16,7 @@ df = pd.read_csv('data/edges_of_nyc.csv')
 place = 'New york city,New York, USA'
 G = ox.graph_from_place(place, network_type='drive')
 
-def getSafest(origin,destination):
-    route = ox.shortest_path(G, origin, destination, weight='length')
-#fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
-#fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
 
-def isPresent(origin,destination):
-    if origin == df.name and destination == df.name :
-        print('coucou')
-        return True
-    elif origin != df.name:
-        print('coucou2')
-        return 'Wrong origin'
-    elif destination != df.name:
-        print('coucou3')
-        return 'Wrong destination'
 class NYMapOSMnx:
     """This class will create the edge graph of New York and will find the shortest and least dangerous route from a to b"""
 
@@ -40,12 +26,21 @@ class NYMapOSMnx:
         G = ox.graph_from_place(place, network_type='drive')
         return G
 
-    def getSafest(self, G, origin, destination):
-        """This function will give the shortest path with less danger and return it"""
+   def getSafest(self, origin,destination):
+        route = ox.shortest_path(G, origin, destination, weight='length')
+        #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
+        #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
 
-        route = ox.shortest_path(G, origin, destination, weight='lenght')
-
-        return route
+    def isPresent(self, origin,destination):
+        if origin == df.name and destination == df.name :
+            print('coucou')
+            return True
+        elif origin != df.name:
+            print('coucou2')
+            return 'Wrong origin'
+        elif destination != df.name:
+            print('coucou3')
+            return 'Wrong destination'
     #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
 
     # convert your MultiDiGraph to an undirected MultiGraph
@@ -53,11 +48,7 @@ class NYMapOSMnx:
     # convert your MultiDiGraph to a DiGraph without parallel edges
     #D = ox.get_digraph(G)
     #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
-<<<<<<< HEAD
 
-
-    place = 'New york city,New York, USA'
-    G = ox.graph_from_place(place, network_type='drive')
-    print(G.head(100))
-=======
->>>>>>> f49f645e826fd4330d66c3c6964b26be21df3807
+place = 'New york city,New York, USA'
+G = ox.graph_from_place(place, network_type='drive')
+print(G.head(100))
