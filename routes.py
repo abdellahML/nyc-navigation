@@ -11,7 +11,6 @@ Returns:
     [View]: [login page]
 """
 
-
 @app.route("/",methods=["GET", "POST"])
 def home():
     return render_template("home.html")
