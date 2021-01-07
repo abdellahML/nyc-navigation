@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 
-df = pd.read_csv('data/edges_of_nyc.csv')
+
 ####Create a class path who will define our function for the project.
 ### Our class should take as parameter the origin and destination at least
 
@@ -22,15 +22,13 @@ def getSafest(origin,destination):
 #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
 
 def isPresent(origin,destination):
-    if origin == df.name and destination == df.name :
-        print('coucou')
+    df = pd.read_csv('data/edges_of_nyc.csv')
+    if origin in df.name and destination in df.name :
         return True
-    elif origin != df.name:
-        print('coucou2')
-        return 'Wrong origin'
-    elif destination != df.name:
-        print('coucou3')
-        return 'Wrong destination'
+    elif origin not in df.name:
+        return False
+    elif destination not in df.name:
+        return False
 class NYMapOSMnx:
     """This class will create the edge graph of New York and will find the shortest and least dangerous route from a to b"""
 

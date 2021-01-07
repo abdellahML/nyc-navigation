@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template,flash
 from flask_bootstrap import Bootstrap
 import os
 from ny_map_osmnx import getSafest,isPresent
@@ -29,8 +29,7 @@ def test():
     destination = request.form["destination"]
     print(destination)
     coordinate = isPresent(origin,destination)
-    print(coordinate)
-    result = getSafest(origin,destination)
+    #result = getSafest(origin,destination)
     if coordinate != True:
         flash(u'Look like you have entered a wrong origin or destination', 'error')
         return render_template("home.html",message = 'PLOPpeR de PLOP')
