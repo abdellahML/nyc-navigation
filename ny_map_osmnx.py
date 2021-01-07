@@ -27,3 +27,8 @@ class NYMapOSMnx:
     # convert your MultiDiGraph to a DiGraph without parallel edges
     #D = ox.get_digraph(G)
     #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
+
+
+    place = 'New york city,New York, USA'
+    G = ox.graph_from_place(place, network_type='drive')
+    print(G.head(100))
