@@ -17,7 +17,7 @@ class NYMapOSMnx:
     def getSafest(self, G, origin, destination):
         """This function will give the shortest path with less danger and return it"""
 
-        route = ox.shortest_path(G, origin, destination, weight='length')
+        route = ox.shortest_path(G, origin, destination, weight='lenght')
 
         return route
     #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
