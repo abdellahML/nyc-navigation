@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import Flask, request, render_template
 import os
-from ny_map_osmnx.py import getSafest
+from ny_map_osmnx import getSafest
 
 app = Flask(__name__)
 
