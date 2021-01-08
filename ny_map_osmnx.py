@@ -26,12 +26,13 @@ class NYMapOSMnx:
         G = ox.graph_from_place(place, network_type='drive')
         return G
 
-   def getSafest(self, origin,destination):
+
+    def getSafest(self, origin, destination):
         route = ox.shortest_path(G, origin, destination, weight='length')
         #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
         #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
 
-    def isPresent(self, origin,destination):
+    def isPresent(self, origin, destination):
         if origin == df.name and destination == df.name :
             print('coucou')
             return True
@@ -51,4 +52,4 @@ class NYMapOSMnx:
 
 place = 'New york city,New York, USA'
 G = ox.graph_from_place(place, network_type='drive')
-print(G.head(100))
+print(G.edges())
