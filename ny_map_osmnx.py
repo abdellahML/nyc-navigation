@@ -39,7 +39,7 @@ class NYMapOSMnx:
         G = ox.graph_from_place(place, network_type='drive')
         return G
 
-   def getSafest(self, origin,destination):
+    def getSafest(self, origin,destination):
         route = ox.shortest_path(G, origin, destination, weight='length')
         #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
         #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
@@ -62,14 +62,11 @@ class NYMapOSMnx:
     #D = ox.get_digraph(G)
     #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
 
-<<<<<<< HEAD
     def safest_way(origin,destination):                                                                 # select safest route
         route = ox.shortest_path(G, origin, destination, weight='danger_weight')
         fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)        # plot the safest road
         route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route, 'danger_weight')))      # print the risk on this road
         print('The risk on this Route is ', route_risk, ' accidents per year')
-=======
 place = 'New york city,New York, USA'
 G = ox.graph_from_place(place, network_type='drive')
 print(G.head(100))
->>>>>>> 30e17ba95856a6a24c97f94adbddddcc528c8056
