@@ -1,1566 +1,720 @@
 filtered_street,WEIGHT
- 1 Street,1.0
- 10 Avenue,4.0
- 10 Street,13.0
- 100 Avenue,8.0
- 100 Street,15.0
- 101 Avenue,30.0
- 101 Street,10.0
- 102 Avenue,2.0
- 102 Street,17.0
- 103 Avenue,11.0
- 103 Street,27.0
- 104 Avenue,14.0
- 104 Road,1.0
- 104 Street,26.0
- 105 Avenue,9.0
- 105 Street,9.0
- 106 Avenue,1.0
- 106 Street,11.0
- 107 Avenue,22.0
- 107 Street,12.0
- 108 Avenue,1.0
- 108 Street,32.0
- 109 Avenue,9.0
- 109 Road,5.0
- 109 Street,6.0
- 11 Avenue,1.0
- 11 Street,4.0
- 110 Avenue,12.0
- 110 Road,4.0
- 110 Street,12.0
- 111 Avenue,5.0
- 111 Street,33.0
- 112 Avenue,5.0
- 112 Road,5.0
- 112 Street,8.0
- 113 Avenue,8.0
- 113 Drive,1.0
- 113 Road,1.0
- 113 Street,6.0
- 114 Drive,1.0
- 114 Road,10.0
- 114 Street,14.0
- 115 Avenue,9.0
- 115 Drive,3.0
- 115 Road,3.0
- 115 Street,6.0
- 116 Avenue,11.0
- 116 Street,6.0
- 117 Street,12.0
- 118 Avenue,7.0
- 118 Street,9.0
- 119 Avenue,8.0
- 119 Road,2.0
- 12 Avenue,1.0
- 12 Street,6.0
- 120 Avenue,6.0
- 120 Street,6.0
- 121 Avenue,1.0
- 121 Street,10.0
- 122 Avenue,3.0
- 122 Place,4.0
- 122 Street,3.0
- 123 Avenue,2.0
- 123 Street,12.0
- 124 Place,1.0
- 124 Street,8.0
- 125 Avenue,3.0
- 125 Street,7.0
- 126 Street,6.0
- 127 Avenue,1.0
- 127 Place,1.0
- 127 Street,9.0
- 128 Avenue,3.0
- 128 Road,1.0
- 128 Street,3.0
- 129 Avenue,1.0
- 129 Street,8.0
- 13 Avenue,1.0
- 13 Street,3.0
- 130 Avenue,6.0
- 130 Street,11.0
- 131 Avenue,1.0
- 131 Street,6.0
- 132 Avenue,1.0
- 132 Street,8.0
- 133 Avenue,12.0
- 133 Street,1.0
- 134 Avenue,1.0
- 134 Street,19.0
- 135 Avenue,15.0
- 135 Street,10.0
- 136 Avenue,2.0
- 136 Street,2.0
- 137 Avenue,3.0
- 137 Street,2.0
- 138 Avenue,2.0
- 138 Place,2.0
- 138 Road,1.0
- 138 Street,5.0
- 139 Avenue,3.0
- 139 Street,7.0
- 14 Avenue,10.0
- 14 Road,5.0
- 14 Street,1.0
- 140 Avenue,4.0
- 140 Street,4.0
- 141 Avenue,5.0
- 141 Road,1.0
- 141 Street,2.0
- 142 Place,1.0
- 142 Street,6.0
- 143 Avenue,1.0
- 143 Road,1.0
- 143 Street,3.0
- 144 Avenue,3.0
- 144 Road,2.0
- 144 Street,9.0
- 144 Terrace,1.0
- 145 Avenue,9.0
- 145 Drive,1.0
- 145 Road,3.0
- 145 Street,2.0
- 146 Avenue,1.0
- 146 Drive,1.0
- 146 Street,5.0
- 147 Avenue,4.0
- 147 Place,2.0
- 147 Road,1.0
- 147 Street,5.0
- 148 Avenue,8.0
- 148 Road,2.0
- 148 Street,3.0
- 149 Avenue,7.0
- 149 Drive,3.0
- 149 Road,1.0
- 149 Street,4.0
- 150 Avenue,2.0
- 150 Street,17.0
- 151 Avenue,1.0
- 152 Avenue,1.0
- 153 Avenue,8.0
- 153 Street,12.0
- 154 Street,6.0
- 155 Avenue,1.0
- 155 Street,4.0
- 156 Street,8.0
- 157 Street,7.0
- 158 Avenue,1.0
- 158 Street,3.0
- 159 Street,20.0
- 16 Road,1.0
- 160 Street,15.0
- 161 Street,13.0
- 162 Street,14.0
- 163 Road,1.0
- 163 Street,3.0
- 164 Drive,1.0
- 164 Place,7.0
- 164 Street,20.0
- 165 Avenue,2.0
- 165 Street,16.0
- 166 Place,3.0
- 166 Street,3.0
- 167 Street,14.0
- 168 Place,6.0
- 168 Street,21.0
- 169 Street,6.0
- 17 Road,1.0
- 170 Street,10.0
- 171 Street,9.0
- 172 Street,15.0
- 173 Street,10.0
- 174 Street,4.0
- 175 Street,10.0
- 176 Street,1.0
- 177 Place,2.0
- 177 Street,4.0
- 178 Place,3.0
- 178 Street,10.0
- 179 Place,1.0
- 179 Street,3.0
- 18 Street,3.0
- 180 Street,10.0
- 181 Place,3.0
- 181 Street,5.0
- 182 Place,1.0
- 182 Street,4.0
- 183 Place,1.0
- 183 Street,7.0
- 184 Street,5.0
- 185 Street,4.0
- 186 Street,9.0
- 187 Place,5.0
- 187 Street,4.0
- 188 Street,28.0
- 189 Street,6.0
- 19 Avenue,1.0
- 19 Street,2.0
- 190 Street,4.0
- 191 Street,2.0
- 192 Street,3.0
- 193 Street,10.0
- 194 Street,4.0
- 195 Place,4.0
- 195 Street,5.0
- 196 Street,4.0
- 197 Street,6.0
- 198 Street,6.0
- 199 Street,16.0
- 20 Avenue,35.0
- 20 Road,2.0
- 20 Street,2.0
- 200 Street,7.0
- 201 Street,7.0
- 202 Street,8.0
- 203 Street,1.0
- 204 Street,14.0
- 205 Place,1.0
- 205 Street,5.0
- 207 Street,8.0
- 208 Place,1.0
- 208 Street,17.0
- 209 Street,7.0
- 21 Avenue,4.0
- 21 Street,41.0
- 210 Street,2.0
- 211 Place,3.0
- 211 Street,5.0
- 212 Place,1.0
- 212 Street,11.0
- 213 Street,6.0
- 214 Place,1.0
- 214 Street,5.0
- 215 Place,3.0
- 215 Street,10.0
- 216 Street,8.0
- 217 Lane,1.0
- 217 Street,1.0
- 218 Place,1.0
- 218 Street,9.0
- 219 Street,4.0
- 22 Avenue,1.0
- 22 Street,5.0
- 220 Place,1.0
- 220 Street,15.0
- 221 Street,5.0
- 222 Street,18.0
- 223 Place,1.0
- 223 Street,7.0
- 224 Street,6.0
- 225 Street,5.0
- 226 Street,8.0
- 227 Street,7.0
- 228 Street,7.0
- 229 Street,8.0
- 23 Avenue,16.0
- 23 Street,5.0
- 230 Street,6.0
- 231 Street,9.0
- 232 Street,9.0
- 233 Street,4.0
- 234 Place,1.0
- 234 Street,10.0
- 235 Street,1.0
- 24 Avenue,3.0
- 24 Street,6.0
- 240 Street,2.0
- 241 Street,1.0
- 242 Street,4.0
- 243 Street,11.0
- 244 Street,7.0
- 246 Street,3.0
- 248 Street,3.0
- 249 Street,9.0
- 25 Avenue,13.0
- 25 Road,1.0
- 251 Street,1.0
- 252 Street,3.0
- 253 Street,3.0
- 254 Street,1.0
- 256 Street,6.0
- 257 Street,6.0
- 258 Street,1.0
- 259 Street,5.0
- 26 Avenue,9.0
- 26 Road,2.0
- 26 Street,1.0
- 260 Street,7.0
- 261 Street,1.0
- 262 Street,1.0
- 263 Street,3.0
- 264 Street,1.0
- 265 Street,1.0
- 266 Street,1.0
- 268 Street,3.0
- 269 Street,1.0
- 27 Avenue,4.0
- 27 Road,1.0
- 27 Street,9.0
- 270 Street,2.0
- 271 Street,1.0
- 28 Avenue,6.0
- 28 Street,12.0
- 29 Avenue,6.0
- 29 Road,1.0
- 29 Street,24.0
- 3 Street,1.0
- 30 Avenue,19.0
- 30 Drive,1.0
- 30 Road,1.0
- 30 Street,5.0
- 31 Avenue,51.0
- 31 Drive,3.0
- 31 Street,27.0
- 32 Avenue,8.0
- 32 Street,9.0
- 33 Avenue,1.0
- 33 Road,3.0
- 33 Street,22.0
- 34 Avenue,40.0
- 34 Road,3.0
- 34 Street,11.0
- 35 Avenue,32.0
- 35 Street,11.0
- 36 Avenue,7.0
- 36 Street,6.0
- 37 Avenue,75.0
- 37 Drive,4.0
- 37 Street,25.0
- 38 Avenue,18.0
- 38 Street,8.0
- 39 Avenue,23.0
- 39 Street,1.0
- 4 Street,3.0
- 40 Avenue,7.0
- 40 Drive,1.0
- 40 Road,5.0
- 40 Street,2.0
- 41 Avenue,25.0
- 41 Road,4.0
- 41 Street,8.0
- 42 Avenue,16.0
- 42 Street,8.0
- 43 Avenue,22.0
- 43 Street,14.0
- 44 Avenue,4.0
- 44 Street,10.0
- 45 Avenue,9.0
- 45 Road,3.0
- 45 Street,16.0
- 46 Avenue,12.0
- 46 Street,4.0
- 47 Avenue,4.0
- 47 Street,10.0
- 48 Avenue,5.0
- 48 Street,11.0
- 49 Avenue,2.0
- 49 Street,4.0
- 5 Avenue,3.0
- 50 Avenue,9.0
- 50 Street,1.0
- 51 Avenue,14.0
- 51 Road,2.0
- 51 Street,10.0
- 52 Avenue,8.0
- 52 Court,1.0
- 53 Avenue,7.0
- 53 Drive,1.0
- 54 Avenue,7.0
- 54 Street,1.0
- 55 Avenue,10.0
- 55 Drive,2.0
- 55 Road,2.0
- 55 Street,12.0
- 56 Avenue,14.0
- 56 Drive,5.0
- 56 Road,4.0
- 56 Street,2.0
- 57 Avenue,22.0
- 57 Drive,5.0
- 57 Road,4.0
- 57 Street,5.0
- 58 Avenue,3.0
- 58 Lane,1.0
- 58 Place,1.0
- 58 Road,3.0
- 58 Street,6.0
- 59 Avenue,9.0
- 59 Place,1.0
- 59 Road,1.0
- 59 Street,4.0
- 60 Avenue,4.0
- 60 Drive,5.0
- 60 Lane,6.0
- 60 Place,1.0
- 60 Road,4.0
- 60 Street,9.0
- 61 Avenue,5.0
- 61 Road,1.0
- 61 Street,13.0
- 62 Avenue,3.0
- 62 Drive,2.0
- 62 Road,1.0
- 62 Street,4.0
- 63 Road,1.0
- 63 Street,4.0
- 64 Avenue,10.0
- 64 Place,3.0
- 64 Road,1.0
- 64 Street,10.0
- 65 Avenue,5.0
- 65 Place,5.0
- 65 Street,2.0
- 66 Avenue,1.0
- 66 Street,5.0
- 67 Avenue,6.0
- 67 Drive,5.0
- 67 Place,2.0
- 67 Street,3.0
- 68 Avenue,11.0
- 68 Drive,1.0
- 68 Place,4.0
- 68 Road,6.0
- 68 Street,7.0
- 69 Avenue,11.0
- 69 Drive,2.0
- 69 Lane,5.0
- 69 Place,6.0
- 69 Road,7.0
- 69 Street,29.0
- 70 Avenue,3.0
- 70 Road,1.0
- 70 Street,13.0
- 71 Avenue,14.0
- 71 Place,1.0
- 71 Road,1.0
- 71 Street,15.0
- 72 Avenue,6.0
- 72 Place,5.0
- 72 Street,5.0
- 73 Avenue,10.0
- 73 Place,6.0
- 73 Street,25.0
- 74 Avenue,3.0
- 74 Street,11.0
- 75 Avenue,11.0
- 75 Place,1.0
- 75 Road,1.0
- 75 Street,12.0
- 76 Avenue,14.0
- 76 Drive,1.0
- 76 Road,2.0
- 76 Street,18.0
- 77 Avenue,5.0
- 77 Crescent,1.0
- 77 Road,4.0
- 77 Street,27.0
- 78 Avenue,5.0
- 78 Road,3.0
- 78 Street,16.0
- 79 Avenue,10.0
- 79 Place,3.0
- 79 Street,24.0
- 8 Street,1.0
- 80 Avenue,2.0
- 80 Road,2.0
- 80 Street,35.0
- 81 Avenue,3.0
- 81 Street,11.0
- 82 Avenue,6.0
- 82 Place,1.0
- 82 Street,36.0
- 83 Avenue,1.0
- 83 Place,1.0
- 83 Street,16.0
- 84 Avenue,6.0
- 84 Drive,10.0
- 84 Road,3.0
- 84 Street,23.0
- 85 Avenue,7.0
- 85 Drive,7.0
- 85 Road,2.0
- 85 Street,20.0
- 86 Avenue,9.0
- 86 Road,1.0
- 86 Street,9.0
- 87 Avenue,12.0
- 87 Road,8.0
- 87 Street,11.0
- 88 Avenue,9.0
- 88 Road,4.0
- 88 Street,31.0
- 89 Avenue,29.0
- 89 Road,1.0
- 89 Street,10.0
- 9 Street,3.0
- 90 Avenue,15.0
- 90 Street,11.0
- 91 Avenue,10.0
- 91 Place,1.0
- 91 Street,11.0
- 92 Street,18.0
- 93 Avenue,10.0
- 93 Street,13.0
- 94 Avenue,12.0
- 94 Drive,1.0
- 94 Street,29.0
- 95 Avenue,12.0
- 95 Street,8.0
- 96 Avenue,1.0
- 96 Street,18.0
- 97 Avenue,9.0
- 97 Place,8.0
- 97 Street,28.0
- 98 Place,1.0
- 98 Street,30.0
- 99 Avenue,8.0
- 99 Street,27.0
- Abingdon Road,2.0
- Admiral Avenue,1.0
- Aguilar Avenue,2.0
- Albert Road,2.0
- Albion Avenue,4.0
- Alderton Street,3.0
- Allendale Street,1.0
- Almeda Avenue,5.0
- Alstyne Avenue,5.0
- Andrews Avenue,1.0
- Arcade Avenue,1.0
- Archer Avenue,3.0
- Arlington Terrace,3.0
- Astoria Boulevard,68.0
- Astoria Park South,2.0
- Atlantic Avenue,37.0
- Austin Street,12.0
- Avery Avenue,10.0
- Avon Street,3.0
- Babylon Avenue,1.0
- Baisley Boulevard,18.0
- Barclay Avenue,2.0
- Baxter Avenue,2.0
- Bayport Place,1.0
- Bayside Avenue,3.0
- Beach 12 Street,1.0
- Beach 20 Street,2.0
- Beach 22 Street,1.0
- Beach Channel Drive,88.0
- Beaver Road,2.0
- Bedell Street,3.0
- Beech Avenue,2.0
- Belknap Street,1.0
- Bell Boulevard,14.0
- Bellaire Place,1.0
- Benham Street,1.0
- Beverly Road,2.0
- Bleecker Street,2.0
- Booth Memorial Avenue,1.0
- Booth Street,1.0
- Borden Avenue,4.0
- Borkel Place,1.0
- Bowne Street,1.0
- Braddock Avenue,7.0
- Brewer Boulevard,50.0
- Brinkerhoff Avenue,2.0
- Brisbin Street,2.0
- Britton Avenue,3.0
- Broadway,66.0
- Brookhaven Avenue,8.0
- Brooklyn Queens Expressway,7.0
- Brookville Boulevard,19.0
- Brown Place,2.0
- Browvale Lane,1.0
- Buell Street,1.0
- Burden Crescent,1.0
- Burling Street,1.0
- Calamus Avenue,1.0
- Calloway Street,3.0
- Caney Road,3.0
- Carpenter Avenue,1.0
- Case Street,3.0
- Catalpa Avenue,4.0
- Central Avenue,5.0
- Centreville Avenue,4.0
- Chapin Parkway,3.0
- Chelsea Street,1.0
- Chevy Chase Street,1.0
- Christie Avenue,1.0
- Claude Avenue,4.0
- Clearview Expressway,3.0
- Clinton Avenue,1.0
- Clintonville Street,2.0
- Clover Place,1.0
- Cohancy Street,3.0
- Colden Street,1.0
- Coldspring Road,1.0
- College Point Boulevard,28.0
- Collier Avenue,1.0
- Commonwealth Boulevard,3.0
- Coombs Street,1.0
- Cooper Avenue,27.0
- Cornaga Avenue,2.0
- Cornish Avenue,1.0
- Corona Avenue,43.0
- Country Point Circle,3.0
- Crescent Street,18.0
- Cresskill Place,1.0
- Crocheron Avenue,3.0
- Cross Bay Boulevard,43.0
- Cross Island Parkway,10.0
- Croydon Road,1.0
- Curtis Street,1.0
- Cypress Avenue,13.0
- Cypress Hills Street,4.0
- Dalny Road,1.0
- Decatur Street,5.0
- Deerfield Road,1.0
- Delevan Street,1.0
- Delong Street,3.0
- Denman Street,1.0
- Depot Road,3.0
- Dieterle Crescent,1.0
- Dillon Street,1.0
- Ditmars Boulevard,56.0
- Dix Avenue,1.0
- Doran Avenue,1.0
- Dormans Road,1.0
- Douglaston Parkway,1.0
- Downing Street,1.0
- Dry Harbor Road,5.0
- Dunkirk Street,1.0
- Dunton Avenue,1.0
- Dutch Kills Street,1.0
- East Williston Avenue,1.0
- Eckford Avenue,1.0
- Edgemere Avenue,2.0
- Eggert Place,1.0
- Elbertson Street,4.0
- Eliot Avenue,16.0
- Elm Avenue,1.0
- Elmhurst Avenue,11.0
- Everdell Avenue,1.0
- Fairbury Avenue,1.0
- Falcon Avenue,1.0
- Farmers Boulevard,23.0
- Farrington Street,9.0
- Fdr Drive,3.0
- Fern Place,5.0
- Ferndale Avenue,5.0
- Fitchett Street,1.0
- Flushing Avenue,18.0
- Foam Place,1.0
- Foch Boulevard,5.0
- Forest Avenue,24.0
- Forest Parkway,3.0
- Forley Street,5.0
- Fowler Avenue,3.0
- Francis Lewis Boulevard,70.0
- Franklin Avenue,1.0
- Frankton Street,1.0
- Fresh Meadow Lane,5.0
- Fresh Pond Road,20.0
- Gale Avenue,2.0
- Garfield Avenue,1.0
- Gates Avenue,2.0
- Gateway Boulevard,1.0
- Gettysburg Street,2.0
- Gillmore Street,2.0
- Gipson Street,8.0
- Glassboro Avenue,1.0
- Gleane Street,3.0
- Goethals Avenue,4.0
- Gold Road,3.0
- Gothic Drive,1.0
- Grand Avenue,53.0
- Grand Central Parkway,42.0
- Greenpoint Avenue,4.0
- Grenfell Street,1.0
- Grosvenor Lane,1.0
- Grosvenor Road,1.0
- Grove Street,3.0
- Haddon Street,1.0
- Haight Street,3.0
- Hamilton Place,1.0
- Hampton Street,4.0
- Harlem River Drive,4.0
- Harper Street,6.0
- Hartland Avenue,1.0
- Hartman Lane,2.0
- Hassock Street,1.0
- Hazen Street,3.0
- Healy Avenue,3.0
- Hempstead Avenue,23.0
- Henderson Avenue,4.0
- Henley Road,6.0
- Hewlett Street,2.0
- Hiawatha Avenue,1.0
- Highland Avenue,13.0
- Hillside Avenue,148.0
- Hillyer Street,3.0
- Hollis Avenue,10.0
- Hollis Court Boulevard,6.0
- Home Lawn Street,3.0
- Hook Creek Boulevard,4.0
- Hoover Avenue,9.0
- Horace Harding Expressway,90.0
- Hoyt Avenue North,1.0
- Hoyt Avenue South,3.0
- Hull Avenue,1.0
- Humphreys Street,3.0
- Hungry Harbor Road,3.0
- Huxley Street,1.0
- Ilion Avenue,1.0
- Inwood Street,3.0
- Ithaca Street,3.0
- Jackson Avenue,2.0
- Jamaica Avenue,173.0
- James Court,1.0
- Jay Avenue,2.0
- Jewel Avenue,16.0
- Judge Street,1.0
- Junction Boulevard,69.0
- Justice Avenue,1.0
- Kennedy Street,1.0
- Ketcham Street,1.0
- Kissena Boulevard,38.0
- Laburnum Avenue,1.0
- Lakewood Avenue,10.0
- Lamont Avenue,2.0
- Langdale Street,4.0
- Laurel Hill Boulevard,4.0
- Laurelton Parkway,6.0
- Layton Street,1.0
- Lefferts Boulevard,36.0
- Leslie Road,2.0
- Liberty Avenue,48.0
- Lincoln Street,1.0
- Linden Boulevard,44.0
- Linden Place,2.0
- Linden Street,1.0
- Little Neck Parkway,14.0
- Liverpool Street,5.0
- Long Island Expressway,1.0
- Long Street,2.0
- Loretta Road,2.0
- Lowe Court,1.0
- Macnish Street,1.0
- Madison Street,4.0
- Main Avenue,3.0
- Main Street,43.0
- Manilla Street,1.0
- Manton Street,1.0
- Maple Avenue,3.0
- Marathon Parkway,3.0
- Marsden Street,1.0
- Martense Avenue,9.0
- Martin Court,1.0
- Maspeth Avenue,6.0
- Maurice Avenue,5.0
- Mayda Road,5.0
- Mayfield Road,1.0
- Mazeau Street,2.0
- Mcbride Street,1.0
- Mclaughlin Avenue,1.0
- Meadow Drive,1.0
- Meadow Road,1.0
- Melbourne Avenue,6.0
- Memphis Avenue,1.0
- Menahan Street,2.0
- Mentone Avenue,2.0
- Merrick Boulevard,76.0
- Metropolitan Avenue,100.0
- Midland Parkway,2.0
- Mott Avenue,23.0
- Mount Olivet Crescent,2.0
- Murdock Avenue,10.0
- Musket Street,1.0
- Myrtle Avenue,72.0
- Nameoke Avenue,4.0
- Nameoke Street,1.0
- Nashville Boulevard,8.0
- Nassau Boulevard,1.0
- National Street,7.0
- Neilson Street,2.0
- New Haven Avenue,16.0
- Newhall Avenue,2.0
- Newport Avenue,1.0
- Newtown Avenue,4.0
- Newtown Road,2.0
- Nicolls Avenue,2.0
- North Conduit Avenue,23.0
- Northern Boulevard,231.0
- Norton Drive,1.0
- Nurge Avenue,1.0
- Oconnell Court,1.0
- Otto Road,1.0
- Page Place,2.0
- Palmetto Street,1.0
- Park Drive East,13.0
- Park Lane,1.0
- Park Lane South,18.0
- Parsons Boulevard,53.0
- Peck Avenue,1.0
- Penelope Avenue,2.0
- Pershing Crescent,3.0
- Pidgeon Meadow Road,1.0
- Pinegrove Street,1.0
- Pineville Lane,1.0
- Pinson Street,5.0
- Pitkin Avenue,1.0
- Polhemas Avenue,2.0
- Prince Street,5.0
- Princeton Street,1.0
- Purves Street,1.0
- Putnam Avenue,6.0
- Queens Boulevard,104.0
- Queens Plaza North,3.0
- Queens Plaza South,1.0
- Radcliff Avenue,2.0
- Redfern Avenue,8.0
- Reeder Street,1.0
- Regina Avenue,3.0
- Remington Street,6.0
- Rene Court,1.0
- Review Avenue,1.0
- Richland Avenue,1.0
- Riverside Drive,1.0
- Riverside Drive West,1.0
- Rockaway Beach Boulevard,58.0
- Rockaway Boulevard,84.0
- Rockaway Point Boulevard,3.0
- Roosevelt Avenue,145.0
- Rose Avenue,2.0
- Rose Street,1.0
- Ruscoe Street,1.0
- Russell Street,1.0
- Rust Street,2.0
- Sage Street,1.0
- Sanford Avenue,4.0
- Saull Street,1.0
- Saultell Avenue,2.0
- Saunders Street,1.0
- Sayres Avenue,2.0
- Seagirt Boulevard,12.0
- Selover Road,1.0
- Seward Avenue,1.0
- Shore Boulevard,5.0
- Shore Front Parkway,12.0
- Shore Parkway,2.0
- Simonson Street,1.0
- Skillman Avenue,2.0
- Sloan Street,1.0
- Somerset Street,1.0
- South Conduit Avenue,38.0
- South Road,7.0
- Springfield Boulevard,48.0
- Steinway Street,77.0
- Stratton Street,1.0
- Strong Avenue,1.0
- Summerfield Avenue,1.0
- Sunbury Road,1.0
- Sutphin Boulevard,44.0
- Sutter Avenue,6.0
- Sutton Place,1.0
- Thomson Avenue,4.0
- Traffic Avenue,1.0
- Ulmer Street,2.0
- Union Hall Street,5.0
- Union Street,21.0
- Union Turnpike,69.0
- Utopia Parkway,14.0
- Vancleef Street,3.0
- Vandam Street,4.0
- Vandoren Street,1.0
- Vanhorn Street,4.0
- Vanloon Street,1.0
- Vanwyck Expressway,32.0
- Vaswani Avenue,1.0
- Vernon Boulevard,29.0
- Village Road,1.0
- Waldron Street,3.0
- Waltham Street,2.0
- Wareham Place,1.0
- Warren Street,4.0
- Watson Place,1.0
- Weller Lane,1.0
- Welling Court,1.0
- Westgate Street,5.0
- Wetherole Street,1.0
- Wexford Terrace,3.0
- Whitehall Terrace,1.0
- Whitestone Expressway,4.0
- Whitney Avenue,2.0
- Willets Point Boulevard,3.0
- Winchester Boulevard,5.0
- Witthoff Street,1.0
- Woodbine Street,6.0
- Woodhaven Boulevard,22.0
- Woodhull Avenue,1.0
- Woodside Avenue,12.0
- Xenia Street,1.0
- Yellowstone Boulevard,1.0
 1 Avenue,580.0
 1 Place,13.0
-1 Street,7.0
-10 Avenue,298.0
-10 Street,17.0
-100 Avenue,11.0
-100 Street,48.0
-101 Avenue,121.0
-101 Street,23.0
-102 Avenue,5.0
+1 Street,8.0
+10 Avenue,302.0
+10 Street,30.0
+100 Avenue,19.0
+100 Street,63.0
+101 Avenue,151.0
+101 Street,33.0
+102 Avenue,7.0
 102 Road,2.0
-102 Street,75.0
-103 Avenue,79.0
-103 Street,18.0
-104 Avenue,28.0
-104 Street,58.0
-105 Avenue,2.0
-105 Street,26.0
-106 Avenue,6.0
-106 Street,11.0
-107 Avenue,78.0
-107 Street,24.0
-108 Avenue,12.0
-108 Street,146.0
-109 Avenue,86.0
-109 Road,4.0
-109 Street,23.0
-11 Avenue,226.0
+102 Street,92.0
+103 Avenue,90.0
+103 Street,45.0
+104 Avenue,42.0
+104 Road,1.0
+104 Street,84.0
+105 Avenue,11.0
+105 Street,35.0
+106 Avenue,7.0
+106 Street,22.0
+107 Avenue,100.0
+107 Street,36.0
+108 Avenue,13.0
+108 Street,178.0
+109 Avenue,95.0
+109 Road,9.0
+109 Street,29.0
+11 Avenue,227.0
 11 Place,1.0
-11 Street,50.0
-110 Avenue,36.0
-110 Road,10.0
-110 Street,26.0
-111 Avenue,94.0
+11 Street,54.0
+110 Avenue,48.0
+110 Road,14.0
+110 Street,38.0
+111 Avenue,99.0
 111 Road,3.0
-111 Street,102.0
-112 Avenue,13.0
-112 Road,13.0
-112 Street,41.0
+111 Street,135.0
+112 Avenue,18.0
+112 Road,18.0
+112 Street,49.0
 112B Broad Street,1.0
-113 Avenue,25.0
-113 Drive,1.0
-113 Street,20.0
+113 Avenue,33.0
+113 Drive,2.0
+113 Road,1.0
+113 Street,26.0
 1135A Morris Park Avenue,3.0
-114 Road,9.0
-114 Street,61.0
-115 Avenue,116.0
-115 Road,12.0
-115 Street,30.0
-116 Avenue,45.0
+114 Drive,1.0
+114 Road,19.0
+114 Street,75.0
+115 Avenue,125.0
+115 Drive,3.0
+115 Road,15.0
+115 Street,36.0
+116 Avenue,56.0
 116 Road,3.0
-116 Street,34.0
+116 Street,40.0
+116-50A 225 Street,1.0
 117 Road,1.0
-117 Street,7.0
+117 Street,19.0
 1177B Flushing Avenue,1.0
-118 Avenue,37.0
+118 Avenue,44.0
 118 Road,2.0
-118 Street,24.0
-119 Avenue,30.0
+118 Street,33.0
+119 Avenue,38.0
 119 Drive,1.0
-119 Road,1.0
+119 Road,3.0
 119 Street,6.0
-12 Avenue,72.0
+12 Avenue,73.0
 12 Road,4.0
-12 Street,25.0
-120 Avenue,72.0
-120 Street,34.0
-121 Avenue,8.0
-121 Street,17.0
-122 Avenue,21.0
-122 Place,2.0
-122 Street,28.0
-123 Avenue,23.0
-123 Street,32.0
-124 Street,19.0
-125 Avenue,2.0
-125 Street,24.0
+12 Street,31.0
+120 Avenue,78.0
+120 Street,40.0
+121 Avenue,9.0
+121 Street,27.0
+122 Avenue,24.0
+122 Place,6.0
+122 Street,31.0
+123 Avenue,25.0
+123 Street,44.0
+124 Place,1.0
+124 Street,27.0
+125 Avenue,5.0
+125 Street,31.0
 126 Avenue,2.0
 126 Place,1.0
-126 Street,48.0
-127 Avenue,17.0
-127 Street,41.0
-128 Avenue,8.0
+126 Street,54.0
+127 Avenue,18.0
+127 Place,1.0
+127 Street,50.0
+128 Avenue,11.0
 128 Drive,1.0
-128 Street,19.0
-129 Avenue,7.0
-129 Street,33.0
-13 Avenue,101.0
-13 Street,19.0
-130 Avenue,52.0
-130 Street,65.0
+128 Road,1.0
+128 Street,22.0
+129 Avenue,8.0
+129 Street,41.0
+13 Avenue,102.0
+13 Street,22.0
+130 Avenue,58.0
+130 Street,76.0
 1300B Central Avenue,3.0
-131 Avenue,21.0
-131 Street,23.0
-132 Avenue,6.0
-132 Street,18.0
-133 Avenue,57.0
+131 Avenue,22.0
+131 Street,29.0
+132 Avenue,7.0
+132 Street,26.0
+133 Avenue,69.0
 133 Drive,1.0
 133 Road,2.0
-133 Street,21.0
-134 Avenue,15.0
-134 Street,25.0
-135 Avenue,75.0
+133 Street,22.0
+134 Avenue,16.0
+134 Street,44.0
+135 Avenue,90.0
 135 Place,1.0
-135 Street,18.0
-136 Avenue,12.0
-136 Street,11.0
-137 Avenue,36.0
+135 Street,28.0
+136 Avenue,14.0
+136 Street,13.0
+137 Avenue,39.0
 137 Road,3.0
-137 Street,9.0
-138 Avenue,12.0
-138 Place,2.0
-138 Street,39.0
-139 Avenue,15.0
-139 Street,30.0
-14 Avenue,168.0
-14 Road,10.0
-14 Street,38.0
-140 Avenue,27.0
-140 Street,17.0
-141 Avenue,9.0
-141 Street,17.0
+137 Street,11.0
+138 Avenue,14.0
+138 Place,4.0
+138 Road,1.0
+138 Street,44.0
+139 Avenue,18.0
+139 Street,37.0
+14 Avenue,178.0
+14 Road,15.0
+14 Street,39.0
+140 Avenue,31.0
+140 Street,21.0
+141 Avenue,14.0
+141 Road,1.0
+141 Street,19.0
 142 Avenue,4.0
-142 Place,5.0
-142 Street,23.0
-143 Avenue,22.0
-143 Road,1.0
-143 Street,26.0
-144 Avenue,32.0
+142 Place,6.0
+142 Street,29.0
+143 Avenue,23.0
+143 Road,2.0
+143 Street,29.0
+144 Avenue,35.0
 144 Drive,1.0
 144 Place,4.0
-144 Road,5.0
-144 Street,22.0
-145 Avenue,8.0
-145 Drive,4.0
-145 Road,8.0
-145 Street,9.0
-146 Avenue,4.0
-146 Drive,2.0
+144 Road,7.0
+144 Street,31.0
+144 Terrace,1.0
+145 Avenue,17.0
+145 Drive,5.0
+145 Road,11.0
+145 Street,11.0
+146 Avenue,5.0
+146 Drive,3.0
 146 Road,1.0
-146 Street,55.0
-147 Avenue,45.0
+146 Street,60.0
+147 Avenue,49.0
 147 Drive,6.0
-147 Road,3.0
-147 Street,90.0
-148 Avenue,2.0
+147 Place,2.0
+147 Road,4.0
+147 Street,95.0
+148 Avenue,10.0
 148 Drive,3.0
-148 Road,4.0
-148 Street,31.0
-149 Avenue,30.0
+148 Road,6.0
+148 Street,34.0
+149 Avenue,37.0
+149 Drive,3.0
 149 Place,11.0
-149 Road,6.0
-149 Street,67.0
+149 Road,7.0
+149 Street,71.0
 15 Avenue,88.0
 15 Street,27.0
-150 Avenue,6.0
+150 Avenue,8.0
 150 Drive,3.0
 150 Place,4.0
-150 Street,174.0
-151 Avenue,7.0
+150 Street,191.0
+151 Avenue,8.0
 151 Street,3.0
-152 Avenue,1.0
+152 Avenue,2.0
 152 Street,8.0
-153 Avenue,5.0
+153 Avenue,13.0
 153 Lane,1.0
-153 Street,31.0
-154 Street,39.0
-155 Avenue,2.0
-155 Street,60.0
+153 Street,43.0
+154 Street,45.0
+155 Avenue,3.0
+155 Street,64.0
 156 Avenue,4.0
-156 Street,15.0
+156 Street,23.0
 157 Avenue,17.0
-157 Street,39.0
-158 Avenue,7.0
-158 Street,25.0
+157 Street,46.0
+158 Avenue,8.0
+158 Street,28.0
 159 Avenue,6.0
-159 Street,24.0
+159 Street,44.0
 16 Avenue,61.0
-16 Road,2.0
+16 Road,3.0
 16 Street,20.0
 160 Avenue,13.0
-160 Street,59.0
-161 Street,29.0
+160 Street,74.0
+161 Street,42.0
 162 Avenue,3.0
-162 Street,40.0
+162 Street,54.0
 163 Avenue,3.0
-163 Street,22.0
+163 Road,1.0
+163 Street,25.0
 163A West 228 Street,1.0
 164 Avenue,3.0
-164 Place,9.0
-164 Street,83.0
-165 Avenue,3.0
-165 Street,29.0
-166 Street,21.0
-167 Street,19.0
-168 Place,18.0
-168 Street,54.0
+164 Drive,1.0
+164 Place,16.0
+164 Street,103.0
+165 Avenue,5.0
+165 Street,45.0
+166 Place,3.0
+166 Street,24.0
+167 Street,33.0
+168 Place,24.0
+168 Street,75.0
 1689B Saint Johns Place,1.0
 169 Place,1.0
-169 Street,18.0
+169 Street,24.0
 16A Dewey Place,1.0
 17 Avenue,70.0
-17 Road,1.0
+17 Road,2.0
 17 Street,22.0
 170 Place,1.0
-170 Street,16.0
-171 Street,20.0
-172 Street,31.0
-173 Street,37.0
+170 Street,26.0
+171 Street,29.0
+172 Street,46.0
+173 Street,47.0
 174 Place,1.0
-174 Street,3.0
-175 Street,11.0
-176 Street,4.0
-177 Street,25.0
-178 Place,4.0
-178 Street,4.0
-179 Place,3.0
-179 Street,6.0
+174 Street,7.0
+175 Street,21.0
+176 Street,5.0
+177 Place,2.0
+177 Street,29.0
+178 Place,7.0
+178 Street,14.0
+179 Place,4.0
+179 Street,9.0
 17B Dwight Street,1.0
 18 Avenue,140.0
-18 Street,11.0
-180 Street,13.0
-181 Street,10.0
+18 Street,14.0
+180 Street,23.0
+181 Place,3.0
+181 Street,15.0
 1819C West Farms Road,1.0
-182 Place,1.0
-182 Street,22.0
-183 Street,21.0
-184 Street,6.0
-185 Street,5.0
-186 Street,6.0
-187 Place,5.0
-187 Street,1.0
-188 Street,46.0
-189 Street,11.0
-19 Avenue,73.0
+182 Place,2.0
+182 Street,26.0
+183 Place,1.0
+183 Street,28.0
+184 Street,11.0
+185 Street,9.0
+186 Street,15.0
+187 Place,10.0
+187 Street,5.0
+188 Street,74.0
+189 Street,17.0
+19 Avenue,74.0
 19 Road,1.0
-19 Street,42.0
+19 Street,44.0
 190 Lane,1.0
-190 Street,15.0
-191 Street,7.0
-192 Street,12.0
-193 Street,14.0
-194 Street,8.0
-195 Street,19.0
+190 Street,19.0
+191 Street,9.0
+192 Street,15.0
+193 Street,24.0
+194 Street,12.0
+195 Place,4.0
+195 Street,24.0
 1954A Rockaway Parkway,1.0
 195A Canal Street,1.0
 196 Place,1.0
-196 Street,12.0
+196 Street,16.0
 196A Flatbush Avenue,1.0
-197 Street,28.0
-198 Street,12.0
-199 Street,26.0
+197 Street,34.0
+197-80H Peck Avenue,1.0
+198 Street,18.0
+199 Street,42.0
 2 Avenue,729.0
 2 Place,3.0
 2 Street,11.0
-20 Avenue,127.0
+20 Avenue,162.0
 20 Drive,1.0
-20 Road,5.0
-20 Street,23.0
-200 Street,15.0
+20 Road,7.0
+20 Street,25.0
+200 Street,22.0
 201 Place,5.0
-201 Street,26.0
-202 Street,16.0
-203 Street,12.0
-204 Street,24.0
-205 Street,19.0
-207 Street,10.0
-208 Street,15.0
-209 Street,13.0
-21 Avenue,91.0
+201 Street,33.0
+202 Street,24.0
+203 Street,13.0
+204 Street,38.0
+205 Place,1.0
+205 Street,24.0
+207 Street,18.0
+208 Place,1.0
+208 Street,32.0
+209 Street,20.0
+21 Avenue,95.0
 21 Road,1.0
-21 Street,224.0
-210 Street,7.0
-211 Street,18.0
-212 Place,1.0
-212 Street,41.0
-213 Street,12.0
-214 Place,4.0
-214 Street,9.0
-215 Place,10.0
-215 Street,15.0
-216 Street,2.0
+21 Street,265.0
+210 Street,9.0
+211 Place,3.0
+211 Street,23.0
+212 Place,2.0
+212 Street,52.0
+213 Street,18.0
+214 Place,5.0
+214 Street,14.0
+215 Place,13.0
+215 Street,25.0
+216 Street,10.0
+217 Lane,1.0
 217 Place,2.0
-217 Street,37.0
-218 Street,12.0
+217 Street,38.0
+218 Place,1.0
+218 Street,21.0
 2183A Ralph Avenue,2.0
-219 Street,26.0
+219 Street,30.0
 2193A New England Thruway,1.0
-22 Avenue,14.0
-22 Street,27.0
-220 Place,1.0
-220 Street,25.0
-221 Street,34.0
-222 Street,36.0
-223 Street,46.0
-224 Street,19.0
-225 Street,42.0
-226 Street,14.0
-227 Street,12.0
-228 Street,10.0
-229 Street,11.0
-23 Avenue,90.0
+22 Avenue,15.0
+22 Street,32.0
+220 Place,2.0
+220 Street,40.0
+221 Street,39.0
+222 Street,54.0
+223 Place,1.0
+223 Street,53.0
+224 Street,25.0
+225 Street,47.0
+226 Street,22.0
+227 Street,19.0
+228 Street,17.0
+229 Street,19.0
+23 Avenue,106.0
 23 Road,6.0
-23 Street,41.0
+23 Street,46.0
 23 Terrace,1.0
 230 Place,5.0
-230 Street,6.0
+230 Street,12.0
 230B Edgewater Park,1.0
-231 Street,11.0
-232 Street,5.0
-233 Street,13.0
-234 Street,16.0
+231 Street,20.0
+232 Street,14.0
+233 Street,17.0
+234 Place,1.0
+234 Street,26.0
 235 Court,1.0
-235 Street,5.0
+235 Street,6.0
 237 Street,2.0
 238 Street,1.0
 239 Street,1.0
-24 Avenue,39.0
+24 Avenue,42.0
 24 Road,4.0
-24 Street,30.0
-240 Street,1.0
-241 Street,20.0
-242 Street,3.0
-243 Street,26.0
-244 Street,7.0
+24 Street,36.0
+240 Street,3.0
+241 Street,21.0
+242 Street,7.0
+243 Street,37.0
+244 Street,14.0
 245 Street,3.0
-246 Street,9.0
+246 Street,12.0
 247 Street,3.0
-248 Street,15.0
-249 Street,26.0
-25 Avenue,36.0
+248 Street,18.0
+249 Street,35.0
+25 Avenue,49.0
 25 Drive,1.0
-25 Road,12.0
+25 Road,13.0
 25 Street,5.0
 250 Street,1.0
-251 Street,5.0
-252 Street,2.0
-253 Street,11.0
-254 Street,8.0
+251 Street,6.0
+252 Street,5.0
+253 Street,14.0
+254 Street,9.0
 254B Livonia Avenue,3.0
 255 Street,11.0
 255A Canal Street,1.0
-256 Street,1.0
-257 Street,6.0
-258 Street,2.0
-259 Street,12.0
-26 Avenue,27.0
-26 Road,1.0
-26 Street,5.0
-260 Street,7.0
+256 Street,7.0
+257 Street,12.0
+258 Street,3.0
+259 Street,17.0
+26 Avenue,36.0
+26 Road,3.0
+26 Street,6.0
+260 Street,14.0
+261 Street,1.0
 262 Place,3.0
-263 Street,17.0
-264 Street,5.0
-265 Street,5.0
-266 Street,1.0
+262 Street,1.0
+263 Street,20.0
+264 Street,6.0
+265 Street,6.0
+266 Street,2.0
 267 Street,2.0
-268 Street,8.0
-27 Avenue,18.0
-27 Street,28.0
-271 Street,2.0
+268 Street,11.0
+269 Street,1.0
+27 Avenue,22.0
+27 Road,1.0
+27 Street,37.0
+270 Street,2.0
+271 Street,3.0
 2737B Kingsbridge Terrace,1.0
-28 Avenue,34.0
+28 Avenue,40.0
 28 Road,2.0
-28 Street,32.0
+28 Street,44.0
 2804A 3 Avenue,3.0
-29 Avenue,3.0
-29 Road,1.0
-29 Street,35.0
+29 Avenue,9.0
+29 Road,2.0
+29 Street,59.0
 3 Avenue,1164.0
 3 Avenue Bridge,3.0
 3 Place,10.0
-3 Street,10.0
-30 Avenue,67.0
-30 Drive,6.0
+3 Street,11.0
+30 Avenue,86.0
+30 Drive,7.0
 30 Place,14.0
-30 Road,5.0
-30 Street,32.0
-31 Avenue,128.0
-31 Drive,11.0
+30 Road,6.0
+30 Street,37.0
+31 Avenue,179.0
+31 Drive,14.0
 31 Place,3.0
 31 Road,6.0
-31 Street,146.0
+31 Street,173.0
 311A Leonard Street,1.0
-32 Avenue,68.0
+32 Avenue,76.0
 32 Place,5.0
-32 Street,12.0
+32 Street,21.0
 324A Utica Avenue,1.0
 326A 9 Street,1.0
-33 Avenue,19.0
-33 Road,1.0
-33 Street,67.0
+33 Avenue,20.0
+33 Road,4.0
+33 Street,89.0
 339A Bainbridge Street,1.0
-34 Avenue,157.0
-34 Street,27.0
+34 Avenue,197.0
+34 Road,3.0
+34 Street,38.0
 344B Maujer Street,1.0
 34H Saint Marks Place,1.0
-35 Avenue,105.0
-35 Street,50.0
+35 Avenue,137.0
+35 Street,61.0
 3555A White Plains Road,3.0
 358E East 112 Street,1.0
 35A Prospect Place,1.0
-36 Avenue,35.0
+36 Avenue,42.0
 36 Road,5.0
-36 Street,40.0
-37 Avenue,148.0
+36 Street,46.0
+37 Avenue,223.0
+37 Drive,4.0
 37 Road,2.0
-37 Street,81.0
-38 Avenue,48.0
-38 Street,46.0
+37 Street,106.0
+37-52A College Point Boulevard,1.0
+38 Avenue,66.0
+38 Street,54.0
 386B Chauncey Street,1.0
-39 Avenue,65.0
+39 Avenue,88.0
 39 Place,1.0
 39 Road,2.0
-39 Street,110.0
+39 Street,111.0
 39A Gramercy Park North,1.0
 4 Avenue,310.0
 4 Place,3.0
-4 Street,12.0
-40 Avenue,24.0
-40 Road,11.0
-40 Street,50.0
-41 Avenue,59.0
-41 Road,5.0
-41 Street,48.0
+4 Street,15.0
+40 Avenue,31.0
+40 Drive,1.0
+40 Road,16.0
+40 Street,52.0
+41 Avenue,84.0
+41 Road,9.0
+41 Street,56.0
 41A Grand Street,1.0
-42 Avenue,19.0
+42 Avenue,35.0
 42 Place,2.0
 42 Road,5.0
-42 Street,62.0
-43 Avenue,92.0
-43 Street,81.0
-44 Avenue,14.0
+42 Street,70.0
+42-96A Main Street,1.0
+43 Avenue,114.0
+43 Street,95.0
+44 Avenue,18.0
 44 Drive,13.0
 44 Road,1.0
-44 Street,64.0
-45 Avenue,57.0
+44 Street,74.0
+45 Avenue,66.0
 45 Drive,3.0
-45 Road,5.0
-45 Street,60.0
-46 Avenue,24.0
+45 Road,8.0
+45 Street,76.0
+46 Avenue,36.0
 46 Road,5.0
-46 Street,77.0
+46 Street,81.0
 460N Brielle Avenue,1.0
-47 Avenue,38.0
+47 Avenue,42.0
 47 Road,1.0
-47 Street,68.0
-48 Avenue,49.0
-48 Street,89.0
-49 Avenue,14.0
+47 Street,78.0
+48 Avenue,54.0
+48 Street,100.0
+49 Avenue,16.0
 49 Lane,1.0
-49 Street,77.0
-5 Avenue,669.0
+49 Street,81.0
+5 Avenue,672.0
 5 Street,18.0
-50 Avenue,22.0
-50 Street,54.0
+50 Avenue,31.0
+50 Street,55.0
 504B East 98 Street,1.0
-51 Avenue,42.0
-51 Road,2.0
-51 Street,72.0
+51 Avenue,56.0
+51 Road,4.0
+51 Street,82.0
 5104A Post Road,1.0
-52 Avenue,2.0
+52 Avenue,10.0
+52 Court,1.0
 52 Drive,2.0
 52 Road,2.0
 52 Street,42.0
-53 Avenue,9.0
+53 Avenue,16.0
+53 Drive,1.0
 53 Place,1.0
 53 Street,34.0
 530F Grand Street,1.0
 535A 6 Avenue,1.0
-54 Avenue,13.0
+54 Avenue,20.0
 54 Road,3.0
-54 Street,37.0
+54 Street,38.0
 545A Quincy Street,1.0
-55 Avenue,28.0
-55 Drive,3.0
-55 Road,3.0
-55 Street,45.0
-56 Avenue,16.0
-56 Drive,5.0
-56 Road,29.0
-56 Street,42.0
-57 Avenue,33.0
-57 Drive,1.0
-57 Road,6.0
-57 Street,54.0
-58 Avenue,18.0
+55 Avenue,38.0
+55 Drive,5.0
+55 Road,5.0
+55 Street,57.0
+56 Avenue,30.0
+56 Drive,10.0
+56 Road,33.0
+56 Street,44.0
+57 Avenue,55.0
+57 Drive,6.0
+57 Road,10.0
+57 Street,59.0
+58 Avenue,21.0
 58 Drive,1.0
-58 Lane,2.0
-58 Place,2.0
-58 Road,14.0
-58 Street,110.0
+58 Lane,3.0
+58 Place,3.0
+58 Road,17.0
+58 Street,116.0
 585A Lafayette Avenue,1.0
-59 Avenue,17.0
+59 Avenue,26.0
 59 Drive,5.0
-59 Place,4.0
-59 Road,2.0
-59 Street,78.0
+59 Place,5.0
+59 Road,3.0
+59 Street,82.0
 6 Avenue,116.0
 6 Street,21.0
-60 Avenue,12.0
-60 Lane,1.0
-60 Place,7.0
-60 Road,2.0
-60 Street,141.0
-61 Avenue,9.0
+60 Avenue,16.0
+60 Drive,5.0
+60 Lane,7.0
+60 Place,8.0
+60 Road,6.0
+60 Street,150.0
+61 Avenue,14.0
 61 Drive,1.0
-61 Road,3.0
-61 Street,60.0
+61 Road,4.0
+61 Street,73.0
 616A Macdonough Street,1.0
-62 Avenue,5.0
-62 Drive,19.0
-62 Road,3.0
-62 Street,45.0
+62 Avenue,8.0
+62 Drive,21.0
+62 Road,4.0
+62 Street,49.0
 63 Avenue,22.0
 63 Drive,29.0
-63 Road,12.0
-63 Street,32.0
-64 Avenue,26.0
+63 Road,13.0
+63 Street,36.0
+64 Avenue,36.0
 64 Circle,1.0
-64 Place,1.0
-64 Road,14.0
-64 Street,73.0
-65 Avenue,12.0
-65 Place,33.0
+64 Place,4.0
+64 Road,15.0
+64 Street,83.0
+64-15A 186 Lane,1.0
+64-15E 186 Lane,1.0
+65 Avenue,17.0
+65 Place,38.0
 65 Road,6.0
-65 Street,257.0
-66 Avenue,15.0
+65 Street,259.0
+66 Avenue,16.0
 66 Place,2.0
 66 Road,7.0
-66 Street,72.0
-67 Avenue,20.0
-67 Drive,2.0
-67 Place,2.0
+66 Street,77.0
+67 Avenue,26.0
+67 Drive,7.0
+67 Place,4.0
 67 Road,16.0
-67 Street,43.0
-68 Avenue,15.0
-68 Drive,7.0
-68 Place,1.0
-68 Road,14.0
-68 Street,58.0
-69 Avenue,30.0
-69 Place,5.0
-69 Road,18.0
-69 Street,114.0
+67 Street,46.0
+67-06K 186 Lane,1.0
+67-35B 186 Lane,1.0
+68 Avenue,26.0
+68 Drive,8.0
+68 Place,5.0
+68 Road,20.0
+68 Street,65.0
+69 Avenue,41.0
+69 Drive,2.0
+69 Lane,5.0
+69 Place,11.0
+69 Road,25.0
+69 Street,143.0
 7 Avenue,582.0
 7 Avenue South,37.0
 7 Street,16.0
-70 Avenue,9.0
-70 Road,15.0
-70 Street,58.0
-71 Avenue,47.0
-71 Road,5.0
-71 Street,52.0
+70 Avenue,12.0
+70 Road,16.0
+70 Street,71.0
+71 Avenue,61.0
+71 Place,1.0
+71 Road,6.0
+71 Street,67.0
 711C Seagirt Avenue,1.0
-72 Avenue,18.0
+72 Avenue,24.0
 72 Drive,5.0
-72 Place,1.0
+72 Place,6.0
 72 Road,3.0
-72 Street,43.0
-73 Avenue,65.0
-73 Place,9.0
-73 Street,47.0
+72 Street,48.0
+73 Avenue,75.0
+73 Place,15.0
+73 Street,72.0
 736A East 233 Street,1.0
 73B Visitation Place,1.0
-74 Avenue,5.0
-74 Street,62.0
-75 Avenue,25.0
-75 Road,3.0
-75 Street,18.0
-76 Avenue,12.0
-76 Road,2.0
-76 Street,67.0
-77 Avenue,17.0
-77 Road,7.0
-77 Street,50.0
+74 Avenue,8.0
+74 Street,73.0
+75 Avenue,36.0
+75 Place,1.0
+75 Road,4.0
+75 Street,30.0
+76 Avenue,26.0
+76 Drive,1.0
+76 Road,4.0
+76 Street,85.0
+77 Avenue,22.0
+77 Crescent,1.0
+77 Road,11.0
+77 Street,77.0
 77A Richmond Hill Road,1.0
-78 Avenue,26.0
-78 Road,4.0
-78 Street,102.0
-79 Avenue,5.0
+78 Avenue,31.0
+78 Road,7.0
+78 Street,118.0
+79 Avenue,15.0
 79 Lane,1.0
-79 Street,71.0
+79 Place,3.0
+79 Street,95.0
 8 Avenue,695.0
-8 Street,22.0
-80 Avenue,7.0
-80 Road,4.0
-80 Street,113.0
-81 Avenue,32.0
+8 Street,23.0
+80 Avenue,9.0
+80 Road,6.0
+80 Street,148.0
+81 Avenue,35.0
 81 Road,1.0
-81 Street,91.0
-82 Avenue,23.0
+81 Street,102.0
+82 Avenue,29.0
 82 Drive,1.0
+82 Place,1.0
 82 Road,5.0
-82 Street,81.0
-83 Avenue,5.0
-83 Place,5.0
-83 Street,33.0
-84 Avenue,5.0
-84 Drive,6.0
+82 Street,117.0
+83 Avenue,6.0
+83 Place,6.0
+83 Street,49.0
+84 Avenue,11.0
+84 Drive,16.0
 84 Place,5.0
-84 Road,3.0
-84 Street,79.0
+84 Road,6.0
+84 Street,102.0
 845A East 222 Street,1.0
-85 Avenue,31.0
-85 Drive,1.0
-85 Road,7.0
-85 Street,85.0
-86 Avenue,21.0
+85 Avenue,38.0
+85 Drive,8.0
+85 Road,9.0
+85 Street,105.0
+86 Avenue,30.0
 86 Crescent,1.0
-86 Road,5.0
-86 Street,286.0
+86 Road,6.0
+86 Street,295.0
 860A Remsen Avenue,1.0
 860A Willoughby Avenue,1.0
-87 Avenue,10.0
+87 Avenue,22.0
 87 Drive,3.0
-87 Road,8.0
-87 Street,18.0
-88 Avenue,21.0
+87 Road,16.0
+87 Street,29.0
+88 Avenue,30.0
 88 Lane,1.0
-88 Street,56.0
-89 Avenue,54.0
-89 Street,41.0
+88 Road,4.0
+88 Street,87.0
+89 Avenue,83.0
+89 Road,1.0
+89 Street,51.0
 9 Avenue,282.0
-9 Street,38.0
-90 Avenue,22.0
+9 Street,41.0
+90 Avenue,37.0
 90 Road,1.0
-90 Street,56.0
-91 Avenue,54.0
-91 Street,34.0
+90 Street,67.0
+91 Avenue,64.0
+91 Place,1.0
+91 Street,45.0
 92 Avenue,11.0
-92 Street,66.0
-93 Avenue,29.0
+92 Street,84.0
+93 Avenue,39.0
 93 Road,3.0
-93 Street,29.0
-94 Avenue,16.0
+93 Street,42.0
+94 Avenue,28.0
+94 Drive,1.0
 94 Road,1.0
-94 Street,74.0
-95 Avenue,50.0
-95 Street,49.0
-96 Street,27.0
-97 Avenue,24.0
-97 Place,2.0
-97 Street,63.0
-98 Street,29.0
-99 Avenue,36.0
+94 Street,103.0
+95 Avenue,62.0
+95 Street,57.0
+96 Avenue,1.0
+96 Street,45.0
+97 Avenue,33.0
+97 Place,10.0
+97 Street,91.0
+98 Place,1.0
+98 Street,59.0
+99 Avenue,44.0
 99 Place,1.0
-99 Street,87.0
+99 Street,114.0
 A 14 Street,1.0
-A 186 Lane,1.0
-A 225 Street,1.0
-A College Point Boulevard,1.0
 A Flatbush Avenue,1.0
 A Lafayette Avenue,3.0
-A Main Street,1.0
 A Moultrie Street,1.0
 Aaron Lane,1.0
 Abbey Court,1.0
 Abbot Street,1.0
 Aberdeen Street,1.0
 Abingdon Avenue,4.0
-Abingdon Road,5.0
+Abingdon Road,7.0
 Academy Place,4.0
 Academy Street,10.0
 Ada Drive,1.0
@@ -1571,10 +725,11 @@ Adee Avenue,49.0
 Adelphi Street,12.0
 Adler Place,1.0
 Adlers Lane,1.0
+Admiral Avenue,1.0
 Adrian Avenue,3.0
 Agar Place,3.0
 Agnes Place,1.0
-Aguilar Avenue,1.0
+Aguilar Avenue,3.0
 Ainslie Street,17.0
 Akron Street,1.0
 Alabama Avenue,48.0
@@ -1584,22 +739,23 @@ Albany Crescent,9.0
 Albany Street,8.0
 Albee Avenue,1.0
 Albemarle Road,39.0
-Albert Road,5.0
+Albert Road,7.0
+Albion Avenue,4.0
 Alcott Place,6.0
 Alcott Street,1.0
-Alderton Street,12.0
+Alderton Street,15.0
 Aldrich Street,1.0
 Aldus Street,5.0
 Alexander Avenue,23.0
 Alexander Hamilton Bridge,4.0
 Allen Avenue,2.0
 Allen Street,49.0
-Allendale Street,2.0
+Allendale Street,3.0
 Allerton Avenue,103.0
 Alley Park,1.0
 Allison Avenue,1.0
-Almeda Avenue,1.0
-Alstyne Avenue,3.0
+Almeda Avenue,6.0
+Alstyne Avenue,8.0
 Altavista Court,1.0
 Amador Street,2.0
 Amber Street,2.0
@@ -1618,7 +774,7 @@ Anderson Avenue,21.0
 Anderson Road,1.0
 Anderson Street,3.0
 Andrea Place,1.0
-Andrews Avenue,25.0
+Andrews Avenue,26.0
 Andrews Street,3.0
 Andros Avenue,1.0
 Ann Street,6.0
@@ -1630,7 +786,8 @@ Appleby Avenue,1.0
 Applegate Court,1.0
 Aqueduct Avenue,20.0
 Arbutus Avenue,1.0
-Archer Avenue,38.0
+Arcade Avenue,1.0
+Archer Avenue,41.0
 Archer Road,1.0
 Archer Street,7.0
 Arden Avenue,53.0
@@ -1641,6 +798,7 @@ Arion Place,9.0
 Arlene Street,14.0
 Arlington Avenue,42.0
 Arlington Place,5.0
+Arlington Terrace,3.0
 Armstrong Avenue,21.0
 Arnold Avenue,1.0
 Arnow Avenue,25.0
@@ -1659,10 +817,10 @@ Aske Street,4.0
 Aspinwall Street,1.0
 Aster Court,1.0
 Astor Avenue,24.0
-Astoria Boulevard,186.0
-Astoria Park South,7.0
+Astoria Boulevard,254.0
+Astoria Park South,9.0
 Atkins Avenue,35.0
-Atlantic Avenue,1402.0
+Atlantic Avenue,1439.0
 Attorney Street,1.0
 Aubrey Avenue,3.0
 Auburn Place,2.0
@@ -1673,7 +831,7 @@ Augustina Avenue,3.0
 Aultman Avenue,1.0
 Aurelia Court,4.0
 Austin Place,6.0
-Austin Street,62.0
+Austin Street,74.0
 Autumn Avenue,34.0
 Avenue,33.0
 Avenue A,49.0
@@ -1700,19 +858,19 @@ Avenue W,59.0
 Avenue X,66.0
 Avenue Y,73.0
 Avenue Z,73.0
-Avery Avenue,6.0
+Avery Avenue,16.0
 Aviation Road,3.0
-Avon Street,2.0
+Avon Street,5.0
 Azalea Court,3.0
-B 186 Lane,1.0
 Babbage Street,1.0
+Babylon Avenue,1.0
 Bache Avenue,1.0
 Baden Place,1.0
 Bailey Avenue,77.0
 Bainbridge Avenue,84.0
 Bainbridge Street,29.0
 Baisley Avenue,5.0
-Baisley Boulevard,99.0
+Baisley Boulevard,117.0
 Baker Avenue,1.0
 Balcom Avenue,14.0
 Balfour Place,1.0
@@ -1723,7 +881,7 @@ Bank Street,3.0
 Banker Street,3.0
 Banner Avenue,3.0
 Barbey Street,16.0
-Barclay Avenue,23.0
+Barclay Avenue,25.0
 Barclay Circle,3.0
 Barclay Street,9.0
 Bard Avenue,15.0
@@ -1750,7 +908,7 @@ Bath Avenue,63.0
 Bathgate Avenue,39.0
 Battery Avenue,1.0
 Battery Place,12.0
-Baxter Avenue,17.0
+Baxter Avenue,19.0
 Baxter Street,6.0
 Bay 10 Street,3.0
 Bay 11 Street,3.0
@@ -1794,7 +952,8 @@ Bay View Avenue,3.0
 Bayard Street,21.0
 Baychester Avenue,143.0
 Bayfield Avenue,1.0
-Bayside Avenue,3.0
+Bayport Place,1.0
+Bayside Avenue,6.0
 Bayside Lane,3.0
 Bayswater Avenue,5.0
 Beach 100 Street,2.0
@@ -1809,7 +968,7 @@ Beach 113 Street,4.0
 Beach 114 Street,1.0
 Beach 116 Street,8.0
 Beach 119 Street,2.0
-Beach 12 Street,1.0
+Beach 12 Street,2.0
 Beach 120 Street,1.0
 Beach 121 Street,2.0
 Beach 122 Street,1.0
@@ -1827,9 +986,9 @@ Beach 16 Street,1.0
 Beach 169 Street,3.0
 Beach 17 Street,6.0
 Beach 19 Street,31.0
-Beach 20 Street,30.0
+Beach 20 Street,32.0
 Beach 21 Street,10.0
-Beach 22 Street,8.0
+Beach 22 Street,9.0
 Beach 221 Street,3.0
 Beach 26 Street,6.0
 Beach 28 Street,5.0
@@ -1890,22 +1049,22 @@ Beach 97 Street,1.0
 Beach 98 Street,1.0
 Beach 99 Street,3.0
 Beach Avenue,35.0
-Beach Channel Drive,192.0
+Beach Channel Drive,280.0
 Beach Street,7.0
 Beacon Lane,1.0
 Beadel Street,3.0
 Beard Street,2.0
 Beaumont Avenue,4.0
 Beaumont Street,1.0
-Beaver Road,1.0
+Beaver Road,3.0
 Beaver Street,31.0
 Beck Street,7.0
 Bedell Avenue,1.0
 Bedell Lane,2.0
-Bedell Street,18.0
+Bedell Street,21.0
 Bedford Avenue,687.0
 Bedford Street,9.0
-Beech Avenue,6.0
+Beech Avenue,8.0
 Beech Terrace,2.0
 Beechwood Place,1.0
 Beekman Avenue,1.0
@@ -1913,15 +1072,16 @@ Beekman Place,2.0
 Beekman Street,13.0
 Belair Road,3.0
 Belfast Avenue,3.0
-Belknap Street,9.0
-Bell Boulevard,82.0
-Bellaire Place,2.0
+Belknap Street,10.0
+Bell Boulevard,96.0
+Bellaire Place,3.0
 Bellamy Loop,4.0
 Belmont Avenue,97.0
 Belt Parkway,2469.0
 Bement Avenue,14.0
 Benchley Place,2.0
 Benedict Avenue,5.0
+Benham Street,1.0
 Bennett Avenue,10.0
 Bennett Street,3.0
 Benson Avenue,39.0
@@ -1943,7 +1103,7 @@ Bethel Loop,1.0
 Bethune Street,4.0
 Betts Avenue,1.0
 Beverley Road,162.0
-Beverly Road,2.0
+Beverly Road,4.0
 Bianca Court,1.0
 Bidwell Avenue,1.0
 Billings Place,1.0
@@ -1956,7 +1116,7 @@ Blackrock Avenue,1.0
 Blackstone Avenue,1.0
 Blair Avenue,1.0
 Blake Avenue,113.0
-Bleecker Street,85.0
+Bleecker Street,87.0
 Bleeker Place,1.0
 Blondell Avenue,6.0
 Bloomfield Avenue,3.0
@@ -1976,10 +1136,11 @@ Bolton Street,1.0
 Bond Street,45.0
 Boody Street,6.0
 Boone Avenue,13.0
-Booth Memorial Avenue,30.0
-Booth Street,7.0
-Borden Avenue,159.0
+Booth Memorial Avenue,31.0
+Booth Street,8.0
+Borden Avenue,163.0
 Borinquen Place,26.0
+Borkel Place,1.0
 Borough Place,1.0
 Boscobel Place,4.0
 Boscombe Avenue,7.0
@@ -1989,13 +1150,13 @@ Boundary Avenue,1.0
 Bowen Street,4.0
 Bowery,137.0
 Bowery Street,3.0
-Bowne Street,21.0
+Bowne Street,22.0
 Box Street,8.0
 Boyd Avenue,3.0
 Boyland Street,107.0
 Boynton Avenue,12.0
 Brabant Street,1.0
-Braddock Avenue,16.0
+Braddock Avenue,23.0
 Bradford Street,27.0
 Bradhurst Avenue,25.0
 Bradley Avenue,22.0
@@ -2006,7 +1167,7 @@ Brandis Avenue,1.0
 Brandt Place,1.0
 Brenton Place,1.0
 Brevoort Place,1.0
-Brewer Boulevard,150.0
+Brewer Boulevard,200.0
 Bridge Street,17.0
 Bridgeton Street,2.0
 Bridgewater Street,4.0
@@ -2032,15 +1193,15 @@ Brighton Avenue,3.0
 Brighton Beach Avenue,70.0
 Brighton Court,4.0
 Brightwater Court,12.0
-Brinkerhoff Avenue,2.0
+Brinkerhoff Avenue,4.0
 Brinsmade Avenue,3.0
-Brisbin Street,5.0
+Brisbin Street,7.0
 Bristol Street,39.0
 Bristow Street,8.0
-Britton Avenue,5.0
+Britton Avenue,8.0
 Britton Street,6.0
 Broad Street,29.0
-Broadway,1808.0
+Broadway,1874.0
 Broadway Terrace,5.0
 Brocher Road,2.0
 Bronx Boulevard,57.0
@@ -2056,20 +1217,21 @@ Bronxwood Avenue,98.0
 Brook Avenue,89.0
 Brook Street,7.0
 Brookdale Plaza,5.0
-Brookhaven Avenue,9.0
+Brookhaven Avenue,17.0
 Brooklyn Avenue,192.0
 Brooklyn Battery Tunnel,8.0
 Brooklyn Bridge,25.0
 Brooklyn Qns Expressway,10.0
-Brooklyn Queens Expressway,1441.0
+Brooklyn Queens Expressway,1448.0
 Brooklyn Queens Expressway Ramp,13.0
 Brooklyn Queens Expy (Cdr),1.0
 Brooks Pond Place,1.0
 Brookside Street,3.0
-Brookville Boulevard,96.0
+Brookville Boulevard,115.0
 Broome Street,51.0
-Brown Place,6.0
+Brown Place,8.0
 Brown Street,15.0
+Browvale Lane,1.0
 Bruckner Avenue,1.0
 Bruckner Boulevard,942.0
 Bruckner Expressway,665.0
@@ -2084,6 +1246,7 @@ Buchanan Place,2.0
 Buck Street,3.0
 Bud Place,1.0
 Buel Avenue,4.0
+Buell Street,1.0
 Buffalo Avenue,67.0
 Buffalo Street,6.0
 Buhre Avenue,11.0
@@ -2091,9 +1254,10 @@ Bullard Avenue,4.0
 Bulova Avenue,1.0
 Bulwer Place,1.0
 Burbank Avenue,2.0
+Burden Crescent,1.0
 Burgher Avenue,3.0
 Burke Avenue,54.0
-Burling Street,3.0
+Burling Street,4.0
 Burnett Street,2.0
 Burns Street,10.0
 Burr Avenue,3.0
@@ -2112,10 +1276,10 @@ Cabrini Boulevard,2.0
 Cadman Plaza East,4.0
 Cadman Plaza West,33.0
 Caffrey Avenue,8.0
-Calamus Avenue,5.0
+Calamus Avenue,6.0
 Caldwell Avenue,7.0
 Calhoun Avenue,3.0
-Calloway Street,8.0
+Calloway Street,11.0
 Calyer Street,15.0
 Cambreleng Avenue,2.0
 Cambria Avenue,1.0
@@ -2129,7 +1293,7 @@ Canal Place,7.0
 Canal Street,261.0
 Canarsie Road,9.0
 Caney Lane,3.0
-Caney Road,1.0
+Caney Road,4.0
 Cannon Boulevard,1.0
 Cannon Place,6.0
 Canterbury Avenue,3.0
@@ -2139,7 +1303,7 @@ Carlton Boulevard,1.0
 Carlyle Green,1.0
 Carmine Street,4.0
 Caroll Street,1.0
-Carpenter Avenue,46.0
+Carpenter Avenue,47.0
 Carroll Place,1.0
 Carroll Street,30.0
 Carson Street,2.0
@@ -2149,12 +1313,12 @@ Carver Loop,4.0
 Cary Avenue,12.0
 Casals Place,4.0
 Casanova Street,6.0
-Case Street,4.0
+Case Street,7.0
 Cass Place,4.0
 Cassidy Place,1.0
 Castle Hill Avenue,116.0
 Castleton Avenue,75.0
-Catalpa Avenue,17.0
+Catalpa Avenue,21.0
 Cathedral Parkway,17.0
 Cathedral Place,1.0
 Catherine Street,3.0
@@ -2169,18 +1333,18 @@ Cedar Terrace,1.0
 Center Boulevard,1.0
 Center Drive,3.0
 Center Place,1.0
-Central Avenue,153.0
+Central Avenue,158.0
 Central Park North,13.0
 Central Park South,25.0
 Central Park West,112.0
 Centre Mall,1.0
 Centre Street,58.0
-Centreville Avenue,10.0
+Centreville Avenue,14.0
 Chambers Street,47.0
 Chandler Street,2.0
 Channel Avenue,3.0
 Chapel Street,3.0
-Chapin Parkway,1.0
+Chapin Parkway,4.0
 Chappell Street,1.0
 Charles Avenue,6.0
 Charles Street,11.0
@@ -2192,7 +1356,7 @@ Chatterton Avenue,16.0
 Chauncey Street,34.0
 Cheever Place,2.0
 Chelsea Road,3.0
-Chelsea Street,2.0
+Chelsea Street,3.0
 Cherry Avenue,12.0
 Cherry Street,13.0
 Chester Avenue,2.0
@@ -2204,9 +1368,10 @@ Chestnut Avenue,1.0
 Chestnut Circle,1.0
 Chestnut Drive North,1.0
 Chestnut Street,21.0
+Chevy Chase Street,1.0
 Chisholm Street,5.0
 Chisum Place,2.0
-Christie Avenue,2.0
+Christie Avenue,3.0
 Christopher Lane,7.0
 Christopher Street,16.0
 Chrystie Street,73.0
@@ -2227,12 +1392,12 @@ Clarke Avenue,4.0
 Clarkson Avenue,129.0
 Clarkson Street,11.0
 Classon Avenue,100.0
-Claude Avenue,1.0
+Claude Avenue,5.0
 Claver Place,1.0
 Clawson Street,7.0
 Clay Avenue,49.0
 Clay Street,4.0
-Clearview Expressway,199.0
+Clearview Expressway,202.0
 Clermont Avenue,22.0
 Cleveland Avenue,6.0
 Cleveland Place,1.0
@@ -2240,14 +1405,14 @@ Cleveland Street,33.0
 Clifford Place,3.0
 Clifton Avenue,5.0
 Clifton Place,13.0
-Clinton Avenue,43.0
+Clinton Avenue,44.0
 Clinton Place,1.0
 Clinton Street,89.0
-Clintonville Street,9.0
+Clintonville Street,11.0
 Cloister Place,1.0
 Close Avenue,5.0
 Clove Road,102.0
-Clover Place,5.0
+Clover Place,6.0
 Cloverdale Boulevard,7.0
 Clyde Street,4.0
 Clymer Street,18.0
@@ -2255,17 +1420,18 @@ Coddington Avenue,14.0
 Cody Avenue,3.0
 Cody Place,1.0
 Coffey Street,3.0
-Cohancy Street,2.0
+Cohancy Street,5.0
 Colden Avenue,11.0
-Colden Street,5.0
+Colden Street,6.0
+Coldspring Road,1.0
 Coleman Street,7.0
 Coleridge Street,1.0
 Colfax Street,1.0
 Colgate Avenue,13.0
 College Avenue,27.0
 College Place,3.0
-College Point Boulevard,199.0
-Collier Avenue,3.0
+College Point Boulevard,227.0
+Collier Avenue,4.0
 Collins Place,1.0
 Colon Avenue,1.0
 Colonial Avenue,2.0
@@ -2279,7 +1445,7 @@ Columbus Place,1.0
 Commerce Avenue,16.0
 Commerce Street,1.0
 Commercial Street,3.0
-Commonwealth Boulevard,8.0
+Commonwealth Boulevard,11.0
 Commonwlth Avenue,13.0
 Compton Avenue,1.0
 Comstock Avenue,2.0
@@ -2301,9 +1467,10 @@ Conway Street,12.0
 Conyingham Avenue,1.0
 Cook Street,5.0
 Coolidge Avenue,5.0
+Coombs Street,1.0
 Coonley Court,1.0
 Coop City Boulevard,31.0
-Cooper Avenue,65.0
+Cooper Avenue,92.0
 Cooper Square,3.0
 Cooper Street,33.0
 Copley Street,3.0
@@ -2311,11 +1478,12 @@ Corbett Road,1.0
 Corbin Avenue,1.0
 Corbin Place,11.0
 Corlear Avenue,7.0
-Cornaga Avenue,20.0
+Cornaga Avenue,22.0
 Cornaga Court,1.0
 Cornelia Avenue,1.0
 Cornelia Street,43.0
-Corona Avenue,41.0
+Cornish Avenue,1.0
+Corona Avenue,84.0
 Correll Avenue,1.0
 Corsa Avenue,5.0
 Corson Avenue,2.0
@@ -2324,6 +1492,7 @@ Cortelyou Road,105.0
 Cortlandt Street,5.0
 Coster Street,8.0
 Country Club Road,6.0
+Country Point Circle,3.0
 Court Square,3.0
 Court Street,63.0
 Courtlandt Avenue,19.0
@@ -2342,10 +1511,11 @@ Cranston Street,3.0
 Crawford Avenue,6.0
 Creamer Street,2.0
 Crescent Avenue,4.0
-Crescent Street,164.0
+Crescent Street,182.0
+Cresskill Place,1.0
 Creston Avenue,51.0
 Crittenden Place,2.0
-Crocheron Avenue,12.0
+Crocheron Avenue,15.0
 Croes Avenue,13.0
 Crommelin Street,1.0
 Cromwell Avenue,15.0
@@ -2353,12 +1523,12 @@ Crooke Avenue,9.0
 Cropsey Avenue,175.0
 Crosby Avenue,35.0
 Crosby Street,6.0
-Cross Bay Boulevard,223.0
+Cross Bay Boulevard,266.0
 Cross Bronx Expressway,172.0
 Cross Bronx Expy,984.0
 Cross Bronx Expy Ramp,2.0
 Cross Bronx Extention,18.0
-Cross Island Parkway,858.0
+Cross Island Parkway,868.0
 Cross Street,3.0
 Crotona Avenue,80.0
 Crotona Park East,16.0
@@ -2366,23 +1536,25 @@ Crotona Park North,24.0
 Crotona Park South,4.0
 Crotona Parkway,13.0
 Crown Street,24.0
+Croydon Road,1.0
 Cruger Avenue,27.0
 Crystal Avenue,3.0
 Crystal Street,6.0
 Cumberland Street,5.0
 Cumming Street,3.0
 Curtis Place,2.0
+Curtis Street,1.0
 Curzon Road,1.0
 Cuthbert Road,1.0
-Cypress Avenue,140.0
+Cypress Avenue,153.0
 Cypress Hill Street,11.0
-Cypress Hills Street,24.0
+Cypress Hills Street,28.0
 Cyrus Avenue,4.0
 Cyrus Place,1.0
 Dahill Road,45.0
 Dahlgren Place,2.0
 Dahlia Avenue,2.0
-Dalny Road,5.0
+Dalny Road,6.0
 Daly Avenue,7.0
 Daniel Low Terrace,2.0
 Daniels Street,1.0
@@ -2407,9 +1579,9 @@ Dearborn Court,1.0
 Debevoise Avenue,4.0
 Debevoise Street,4.0
 Decatur Avenue,32.0
-Decatur Street,68.0
+Decatur Street,73.0
 Decker Avenue,16.0
-Deerfield Road,1.0
+Deerfield Road,2.0
 Degroot Place,1.0
 Dekalb Avenue,11.0
 Dekalb Street,7.0
@@ -2419,12 +1591,15 @@ Delancey Street,201.0
 Delavall Avenue,2.0
 Delaware Avenue,5.0
 Delaware Street,3.0
+Delevan Street,1.0
 Delmar Avenue,4.0
 Delmar Loop,1.0
 Delmonico Place,1.0
-Delong Street,2.0
+Delong Street,5.0
 Denis Street,1.0
+Denman Street,1.0
 Depot Place,3.0
+Depot Road,3.0
 Dereimer Avenue,12.0
 Desarc Road,1.0
 Desmond Court,1.0
@@ -2442,20 +1617,20 @@ Dianas Trail,3.0
 Dickens Street,9.0
 Dickie Avenue,1.0
 Dickinson Avenue,1.0
-Dieterle Crescent,1.0
+Dieterle Crescent,2.0
 Digney Avenue,4.0
 Dikeman Street,2.0
-Dillon Street,1.0
+Dillon Street,2.0
 Dinsmore Avenue,4.0
 Dinsmore Place,3.0
 Disosway Place,1.0
-Ditmars Boulevard,77.0
+Ditmars Boulevard,133.0
 Ditmars Street,1.0
 Ditmas Avenue,98.0
 Division Avenue,32.0
 Division Place,2.0
 Division Street,17.0
-Dix Avenue,3.0
+Dix Avenue,4.0
 Dixon Avenue,4.0
 Doane Avenue,1.0
 Dobbin Street,4.0
@@ -2466,19 +1641,19 @@ Dongan Avenue,1.0
 Dongan Place,4.0
 Dongan Street,2.0
 Donizetti Place,2.0
-Doran Avenue,1.0
+Doran Avenue,2.0
 Dorchester Road,21.0
 Doris Street,5.0
-Dormans Road,1.0
+Dormans Road,2.0
 Dorset Street,1.0
 Doscher Street,6.0
 Douglas Avenue,1.0
 Douglas Road,1.0
 Douglass Street,11.0
-Douglaston Parkway,14.0
+Douglaston Parkway,15.0
 Dover Street,10.0
 Downes Avenue,1.0
-Downing Street,10.0
+Downing Street,11.0
 Doyers Street,1.0
 Dreiser Loop,9.0
 Drew Street,15.0
@@ -2487,7 +1662,7 @@ Driggs Street,1.0
 Drive,1.0
 Drumgoole Road East,21.0
 Drumgoole Road West,22.0
-Dry Harbor Road,7.0
+Dry Harbor Road,12.0
 Drysdale Street,1.0
 Duane Street,7.0
 Dublin Place,1.0
@@ -2499,22 +1674,21 @@ Dumont Avenue,88.0
 Duncan Street,6.0
 Duncomb Avenue,2.0
 Dunkirk Drive,3.0
-Dunkirk Street,12.0
+Dunkirk Street,13.0
 Dunne Court,2.0
-Dunton Avenue,1.0
+Dunton Avenue,2.0
 Dunton Street,1.0
 Dupont Street,1.0
 Durant Avenue,1.0
 Durland Place,3.0
 Duryea Avenue,1.0
 Duryea Court,1.0
-Dutch Kills Street,1.0
+Dutch Kills Street,2.0
 Dutchess Avenue,1.0
 Dwight Street,5.0
 Dyckman Street,92.0
 Dyer Avenue,18.0
 Dyre Avenue,13.0
-E 186 Lane,1.0
 Eagle Avenue,12.0
 Eagle Street,6.0
 Eames Place,1.0
@@ -2779,19 +1953,19 @@ East Mount Eden Avenue,25.0
 East New York Avenue,170.0
 East Service Road,1.0
 East Tremont Avenue,551.0
-East Williston Avenue,14.0
+East Williston Avenue,15.0
 Eastburn Avenue,10.0
 Eastchester Road,128.0
 Eastern Parkway,603.0
 Eaton Place,1.0
 Ebey Lane,3.0
 Echo Place,1.0
-Eckford Avenue,2.0
+Eckford Avenue,3.0
 Eckford Street,10.0
 Edenwald Avenue,21.0
 Edgecombe Avenue,45.0
 Edgegrove Avenue,3.0
-Edgemere Avenue,17.0
+Edgemere Avenue,19.0
 Edgerton Boulevard,2.0
 Edgewater Road,47.0
 Edgewater Street,1.0
@@ -2800,14 +1974,15 @@ Edison Avenue,15.0
 Edsall Avenue,1.0
 Edson Avenue,19.0
 Egbert Avenue,3.0
+Eggert Place,1.0
 Einstein Loop,7.0
-Elbertson Street,1.0
+Elbertson Street,5.0
 Elder Avenue,17.0
 Eldert Street,13.0
 Elderts Lane,43.0
 Eldridge Street,22.0
 Elgar Place,1.0
-Eliot Avenue,68.0
+Eliot Avenue,84.0
 Elizabeth Avenue,1.0
 Elizabeth Street,29.0
 Elk Drive,4.0
@@ -2818,9 +1993,10 @@ Ellison Avenue,1.0
 Ellsworth Avenue,8.0
 Ellwell Crescent,1.0
 Ellwood Street,1.0
+Elm Avenue,1.0
 Elm Place,6.0
 Elm Street,3.0
-Elmhurst Avenue,6.0
+Elmhurst Avenue,17.0
 Elmira Loop,2.0
 Elmwood Avenue,6.0
 Elmwood Park Drive,1.0
@@ -2853,7 +2029,7 @@ Euclid Avenue,65.0
 Eunice Place,2.0
 Eveleth Road,1.0
 Evelyn Place,4.0
-Everdell Avenue,1.0
+Everdell Avenue,2.0
 Evergreen Avenue,111.0
 Everitt Place,1.0
 Everitt Street,1.0
@@ -2864,28 +2040,30 @@ Faber Street,1.0
 Fahy Avenue,5.0
 Faile Street,54.0
 Fairbanks Avenue,1.0
+Fairbury Avenue,1.0
 Fairfield Street,1.0
 Fairmount Avenue,4.0
 Fairmount Place,5.0
 Fairview Avenue,31.0
 Fairview Place,2.0
+Falcon Avenue,1.0
 Fanchon Place,1.0
 Fanning Street,1.0
 Far Rockaway Boulevard,1.0
 Faraday Avenue,1.0
-Farmers Boulevard,233.0
+Farmers Boulevard,256.0
 Farragut Avenue,2.0
 Farragut Place,2.0
 Farragut Road,147.0
-Farrington Street,13.0
+Farrington Street,22.0
 Fayette Street,3.0
-Fdr Drive,1310.0
+Fdr Drive,1313.0
 Fdr Drive Ramp,6.0
 Featherbed Lane,27.0
 Fenimore Street,23.0
 Fenton Avenue,11.0
-Fern Place,2.0
-Ferndale Avenue,2.0
+Fern Place,7.0
+Ferndale Avenue,7.0
 Fernside Place,3.0
 Ferris Place,3.0
 Ferris Street,4.0
@@ -2901,7 +2079,7 @@ Fingerboard Road,9.0
 Finlay Street,1.0
 Fish Avenue,12.0
 Fisher Avenue,2.0
-Fitchett Street,1.0
+Fitchett Street,2.0
 Flatbush Avenue,1059.0
 Flatbush Avenue Extension,118.0
 Flatlands 1 Street,1.0
@@ -2911,18 +2089,18 @@ Flatlands 9 Street,1.0
 Flatlands Avenue,341.0
 Fleet Street,4.0
 Fleet Walk,2.0
-Flushing Avenue,343.0
-Foam Place,3.0
-Foch Boulevard,58.0
+Flushing Avenue,361.0
+Foam Place,4.0
+Foch Boulevard,63.0
 Food Center Drive,21.0
 Forbell Street,14.0
 Ford Street,2.0
 Fordham Street,1.0
-Forest Avenue,276.0
+Forest Avenue,300.0
 Forest Hill Road,44.0
 Forest Park Drive,6.0
-Forest Parkway,8.0
-Forley Street,8.0
+Forest Parkway,11.0
+Forley Street,13.0
 Forrest Street,1.0
 Forsyth Street,16.0
 Fort George Avenue,6.0
@@ -2936,21 +2114,22 @@ Foster Avenue,195.0
 Foster Road,14.0
 Fountain Avenue,68.0
 Four Corners Road,9.0
-Fowler Avenue,6.0
+Fowler Avenue,9.0
 Fox Hill Terrace,1.0
 Fox Street,16.0
 Frame Place,1.0
-Francis Lewis Boulevard,231.0
+Francis Lewis Boulevard,301.0
 Frankfort Street,7.0
-Franklin Avenue,160.0
+Franklin Avenue,161.0
 Franklin Place,2.0
 Franklin Street,55.0
+Frankton Street,1.0
 Frawley Circle,1.0
 Freeman Street,30.0
 Freeport Loop,2.0
 Fremont Avenue,1.0
-Fresh Meadow Lane,5.0
-Fresh Pond Road,80.0
+Fresh Meadow Lane,10.0
+Fresh Pond Road,100.0
 Friel Place,1.0
 Frisby Avenue,10.0
 Frisco Avenue,1.0
@@ -2966,19 +2145,19 @@ Furman Street,24.0
 G.C.P. / Jewel (Cdr),1.0
 G.C.P. / L.I.E (Cdr),1.0
 G.C.P. / Laguardia (Cdr),1.0
-Gale Avenue,4.0
+Gale Avenue,6.0
 Gallatin Place,1.0
 Gansevoort Boulevard,4.0
 Garden Street,11.0
 Gardner Avenue,7.0
-Garfield Avenue,1.0
+Garfield Avenue,2.0
 Garfield Place,4.0
 Garfield Street,1.0
 Garnet Street,8.0
 Garretson Avenue,6.0
 Garrison Avenue,28.0
-Gates Avenue,183.0
-Gateway Boulevard,1.0
+Gates Avenue,185.0
+Gateway Boulevard,2.0
 Gateway Drive,76.0
 Gatling Place,10.0
 Gauldy Avenue,1.0
@@ -2992,15 +2171,15 @@ Gerard Avenue,58.0
 Gerritsen Avenue,29.0
 Gerry Street,6.0
 Gervil Street,1.0
-Gettysburg Street,4.0
+Gettysburg Street,6.0
 Giffords Lane,12.0
 Giles Place,3.0
 Gillespie Avenue,1.0
-Gillmore Street,6.0
-Gipson Street,7.0
+Gillmore Street,8.0
+Gipson Street,15.0
 Givan Avenue,26.0
-Glassboro Avenue,2.0
-Gleane Street,7.0
+Glassboro Avenue,3.0
+Gleane Street,10.0
 Gleason Avenue,36.0
 Glebe Avenue,5.0
 Glen Avenue,1.0
@@ -3012,13 +2191,13 @@ Glenwood Street,1.0
 Glover Street,1.0
 Goble Place,4.0
 Godwin Terrace,3.0
-Goethals Avenue,8.0
+Goethals Avenue,12.0
 Goethals Road North,6.0
-Gold Road,1.0
+Gold Road,4.0
 Gold Street,33.0
 Goodwin Place,1.0
 Gordon Street,18.0
-Gothic Drive,1.0
+Gothic Drive,2.0
 Goulden Avenue,10.0
 Gouverneur Avenue,1.0
 Gouverneur Place,2.0
@@ -3032,8 +2211,8 @@ Grafton Street,15.0
 Graham Avenue,110.0
 Gramercy Park North,3.0
 Grand Army Plaza,20.0
-Grand Avenue,165.0
-Grand Central Parkway,91.0
+Grand Avenue,218.0
+Grand Central Parkway,133.0
 Grand Central Pkwy,1369.0
 Grand Concourse,462.0
 Grand Street,255.0
@@ -3060,7 +2239,7 @@ Greencroft Avenue,1.0
 Greene Avenue,72.0
 Greene Street,3.0
 Greenfield Avenue,1.0
-Greenpoint Avenue,98.0
+Greenpoint Avenue,102.0
 Greentree Lane,1.0
 Greenway Drive,1.0
 Greenway Terrace,3.0
@@ -3068,13 +2247,15 @@ Greenwich Avenue,6.0
 Greenwich Street,42.0
 Greenwood Avenue,6.0
 Grenada Place,4.0
-Grenfell Street,5.0
+Grenfell Street,6.0
 Greystone Avenue,10.0
 Grimsby Street,1.0
 Grinnell Place,3.0
 Griswold Avenue,5.0
+Grosvenor Lane,1.0
+Grosvenor Road,1.0
 Grote Street,4.0
-Grove Street,35.0
+Grove Street,38.0
 Guerlain Street,5.0
 Guernsey Street,3.0
 Guider Avenue,15.0
@@ -3083,9 +2264,10 @@ Gunther Place,1.0
 Gurley Avenue,6.0
 Guyon Avenue,6.0
 Gwenn Loop,1.0
-H Peck Avenue,1.0
+Haddon Street,1.0
 Hagaman Place,1.0
 Haight Avenue,8.0
+Haight Street,3.0
 Hale Avenue,13.0
 Hale Street,1.0
 Hall Place,2.0
@@ -3094,13 +2276,13 @@ Halleck Street,14.0
 Halpin Avenue,1.0
 Halsey Street,126.0
 Hamilton Avenue,121.0
-Hamilton Place,19.0
+Hamilton Place,20.0
 Hamilton Terrace,2.0
 Hammersley Avenue,20.0
 Hampden Place,1.0
 Hampton Avenue,5.0
 Hampton Place,4.0
-Hampton Street,9.0
+Hampton Street,13.0
 Hancock Place,5.0
 Hancock Street,48.0
 Hannah Street,3.0
@@ -3114,7 +2296,7 @@ Harding Avenue,10.0
 Harding Park,3.0
 Haring Street,5.0
 Harkness Avenue,5.0
-Harlem River Drive,311.0
+Harlem River Drive,315.0
 Harlem River Drive Ramp,1.0
 Harlem River Park,3.0
 Harman Street,29.0
@@ -3122,6 +2304,7 @@ Harold Avenue,1.0
 Harold Street,1.0
 Harper Avenue,5.0
 Harper Court,3.0
+Harper Street,6.0
 Harrington Avenue,1.0
 Harrison Avenue,38.0
 Harrison Place,7.0
@@ -3132,9 +2315,11 @@ Harrow Street,5.0
 Hart Boulevard,1.0
 Hart Place,1.0
 Hart Street,37.0
-Hartman Lane,7.0
+Hartland Avenue,1.0
+Hartman Lane,9.0
 Harvest Avenue,2.0
 Harway Avenue,6.0
+Hassock Street,1.0
 Hastings Street,2.0
 Hatfield Place,1.0
 Haughwout Avenue,3.0
@@ -3148,7 +2333,8 @@ Hawthorne Street,27.0
 Hawtree Creek Road,2.0
 Hawtree Street,4.0
 Hay Street,3.0
-Hazen Street,12.0
+Hazen Street,15.0
+Healy Avenue,3.0
 Heaney Avenue,1.0
 Heath Avenue,16.0
 Heathcote Avenue,4.0
@@ -3156,11 +2342,12 @@ Heberton Avenue,2.0
 Hegeman Avenue,108.0
 Heinz Avenue,1.0
 Hemlock Street,18.0
-Hempstead Avenue,95.0
-Henderson Avenue,23.0
+Hempstead Avenue,118.0
+Henderson Avenue,27.0
 Hendricks Avenue,7.0
 Hendrickson Street,10.0
 Hendrix Street,37.0
+Henley Road,6.0
 Hennessey Place,1.0
 Henry Hudson Parkway,538.0
 Henry Hudson Parkway Ramp,4.0
@@ -3180,12 +2367,13 @@ Hett Avenue,3.0
 Heusden Street,3.0
 Hewes Street,6.0
 Hewitt Place,2.0
-Hewlett Street,3.0
+Hewlett Street,5.0
 Heyson Road,5.0
 Heyward Street,6.0
+Hiawatha Avenue,1.0
 Hickory Avenue,3.0
 Hicks Street,66.0
-Highland Avenue,9.0
+Highland Avenue,22.0
 Highland Boulevard,21.0
 Highland Place,5.0
 Highlawn Avenue,11.0
@@ -3194,9 +2382,9 @@ Hill Avenue,4.0
 Hill Street,19.0
 Hillel Place,1.0
 Hillman Avenue,1.0
-Hillside Avenue,284.0
+Hillside Avenue,432.0
 Hillside Terrace,5.0
-Hillyer Street,6.0
+Hillyer Street,9.0
 Himrod Street,41.0
 Hinsdale Street,38.0
 Hitchcock Avenue,1.0
@@ -3209,25 +2397,25 @@ Hogan Place,1.0
 Holden Boulevard,1.0
 Holland Avenue,48.0
 Hollers Avenue,8.0
-Hollis Avenue,41.0
-Hollis Court Boulevard,24.0
+Hollis Avenue,51.0
+Hollis Court Boulevard,30.0
 Hollis Hills Terrace,1.0
 Holly Avenue,6.0
 Hollywood Avenue,10.0
 Holsman Road,1.0
-Home Lawn Street,12.0
+Home Lawn Street,15.0
 Home Street,18.0
 Homecrest Avenue,17.0
 Homer Avenue,7.0
 Hone Avenue,19.0
 Honeywell Avenue,6.0
 Honeywell Street,4.0
-Hook Creek Boulevard,59.0
+Hook Creek Boulevard,63.0
 Hooker Place,3.0
 Hooper Street,13.0
-Hoover Avenue,12.0
+Hoover Avenue,21.0
 Hope Street,4.0
-Horace Harding Expressway,130.0
+Horace Harding Expressway,220.0
 Horatio Street,2.0
 Horizon Lane,1.0
 Hornell Loop,2.0
@@ -3237,8 +2425,8 @@ Houseman Avenue,2.0
 Howard Avenue,135.0
 Howard Street,2.0
 Howe Avenue,2.0
-Hoyt Avenue North,32.0
-Hoyt Avenue South,22.0
+Hoyt Avenue North,33.0
+Hoyt Avenue South,25.0
 Hoyt Street,18.0
 Hubbard Place,2.0
 Hubbard Street,8.0
@@ -3249,10 +2437,11 @@ Hudson Street,47.0
 Hudson Walk,1.0
 Hughes Avenue,12.0
 Huguenot Avenue,36.0
-Hull Avenue,27.0
+Hull Avenue,28.0
 Hull Street,7.0
 Humboldt Street,92.0
-Humphreys Street,7.0
+Humphreys Street,10.0
+Hungry Harbor Road,3.0
 Hunt Avenue,2.0
 Hunter Avenue,19.0
 Hunter Street,1.0
@@ -3270,10 +2459,10 @@ Hutchinson River Parkway,209.0
 Hutchinson River Parkway East,10.0
 Hutchinson River Parkway Ramp,4.0
 Huxley Avenue,2.0
-Huxley Street,9.0
+Huxley Street,10.0
 Hylan Boulevard,385.0
 Hymen Court,1.0
-Ilion Avenue,4.0
+Ilion Avenue,5.0
 Ilyse Court,3.0
 Ilyssa Way,2.0
 Independence Avenue,12.0
@@ -3282,22 +2471,23 @@ Ingraham Street,6.0
 Innis Street,10.0
 Intervale Avenue,55.0
 Inwood Avenue,9.0
-Inwood Street,23.0
+Inwood Street,26.0
 Ionia Avenue,3.0
 Irving Avenue,96.0
 Irving Place,7.0
 Irwin Avenue,3.0
 Isham Street,7.0
-Ithaca Street,2.0
+Ithaca Street,5.0
 Ittner Place,1.0
 Jackie Robinson Pkwy,527.0
-Jackson Avenue,98.0
+Jackson Avenue,100.0
 Jackson Mill Road,1.0
 Jackson Street,13.0
 Jacobus Place,2.0
 Jacques Avenue,4.0
 Jake Court,1.0
-Jamaica Avenue,547.0
+Jamaica Avenue,720.0
+James Court,1.0
 James Street,3.0
 Jamie Lane,1.0
 Jane Street,5.0
@@ -3305,6 +2495,7 @@ Jardine Place,2.0
 Jarvis Avenue,9.0
 Jasmine Avenue,1.0
 Java Street,8.0
+Jay Avenue,2.0
 Jay Street,87.0
 Jeanette Avenue,2.0
 Jefferson Avenue,54.0
@@ -3317,7 +2508,7 @@ Jerome Avenue,531.0
 Jerome Street,27.0
 Jersey Street,28.0
 Jesup Avenue,22.0
-Jewel Avenue,34.0
+Jewel Avenue,50.0
 Jewel Street,5.0
 Jewett Avenue,18.0
 Jodie Court,2.0
@@ -3327,20 +2518,19 @@ Johnson Street,20.0
 Joline Avenue,4.0
 Joralemon Street,17.0
 Jordan Avenue,1.0
-Judge Street,4.0
+Judge Street,5.0
 Jules Drive,12.0
 Juliana Place,3.0
 Jumel Place,2.0
 Jumel Terrace,1.0
-Junction Boulevard,90.0
+Junction Boulevard,159.0
 Juniper Avenue,4.0
 Juniper Boulevard North,15.0
 Juniper Boulevard South,14.0
 Juniper Valley Road,7.0
 Junius Street,44.0
 Juno Street,3.0
-Justice Avenue,9.0
-K 186 Lane,1.0
+Justice Avenue,10.0
 Kalmia Avenue,1.0
 Kalver Place,3.0
 Kane Street,1.0
@@ -3357,7 +2547,7 @@ Kelly Street,27.0
 Kenilworth Avenue,3.0
 Kenilworth Place,4.0
 Kenmare Street,29.0
-Kennedy Street,13.0
+Kennedy Street,14.0
 Kensington Avenue,4.0
 Kensington Street,1.0
 Kent Avenue,113.0
@@ -3365,6 +2555,7 @@ Kent Street,12.0
 Kepler Avenue,1.0
 Kermit Place,3.0
 Kessel Street,1.0
+Ketcham Street,1.0
 Kew Forest Lane,1.0
 Kimball Street,7.0
 Kimberly Place,1.0
@@ -3388,7 +2579,7 @@ Kingston Avenue,83.0
 Kingston Place,4.0
 Kinsella Street,2.0
 Kirshon Avenue,1.0
-Kissena Boulevard,110.0
+Kissena Boulevard,148.0
 Kiswick Street,2.0
 Klondike Avenue,8.0
 Knapp Street,33.0
@@ -3405,7 +2596,7 @@ Kossuth Place,2.0
 Kramer Street,2.0
 Kreischer Street,1.0
 L.I.E / G.C.P (Cdr),1.0
-Laburnum Avenue,12.0
+Laburnum Avenue,13.0
 Lacombe Avenue,11.0
 Laconia Avenue,74.0
 Lafayette Avenue,212.0
@@ -3420,23 +2611,24 @@ Lake Street,6.0
 Lake View Place,5.0
 Lakeview Boulevard East,4.0
 Lakeview Lane,4.0
-Lakewood Avenue,8.0
+Lakewood Avenue,18.0
 Lamberts Lane,13.0
 Lamoka Avenue,1.0
-Lamont Avenue,5.0
+Lamont Avenue,7.0
 Lamport Boulevard,3.0
 Lancaster Avenue,1.0
 Landing Road,4.0
 Lanett Avenue,1.0
+Langdale Street,4.0
 Langham Street,1.0
 Lansing Avenue,3.0
 Lasalle Avenue,2.0
 Lasalle Street,8.0
 Latimer Place,2.0
 Laurel Avenue,5.0
-Laurel Hill Boulevard,16.0
+Laurel Hill Boulevard,20.0
 Laurel Hill Terrace,11.0
-Laurelton Parkway,200.0
+Laurelton Parkway,206.0
 Laurie Avenue,1.0
 Lawrence Avenue,9.0
 Lawrence Street,15.0
@@ -3444,12 +2636,12 @@ Lawton Avenue,1.0
 Lawton Street,4.0
 Lax Avenue,1.0
 Layton Avenue,6.0
-Layton Street,1.0
+Layton Street,2.0
 Leavitt Street,15.0
 Lebanon Street,1.0
 Lee Avenue,31.0
 Lefferts Avenue,46.0
-Lefferts Boulevard,143.0
+Lefferts Boulevard,179.0
 Lefferts Place,5.0
 Leggett Avenue,19.0
 Legion Street,9.0
@@ -3462,12 +2654,13 @@ Lenox Terrace Place,1.0
 Leonard Avenue,4.0
 Leonard Street,33.0
 Leroy Street,2.0
+Leslie Road,2.0
 Leverett Avenue,4.0
 Lewis Avenue,85.0
 Lewis Place,1.0
 Lewiston Street,4.0
 Lexington Avenue,369.0
-Liberty Avenue,413.0
+Liberty Avenue,461.0
 Liberty Plaza,2.0
 Liberty Street,23.0
 Library Avenue,3.0
@@ -3479,21 +2672,21 @@ Lily Pond Avenue,17.0
 Lincoln Avenue,65.0
 Lincoln Place,42.0
 Lincoln Road,7.0
-Lincoln Street,6.0
+Lincoln Street,7.0
 Lindbergh Avenue,1.0
-Linden Boulevard,1008.0
-Linden Place,24.0
-Linden Street,44.0
+Linden Boulevard,1052.0
+Linden Place,26.0
+Linden Street,45.0
 Lindenwood Road,1.0
 Linton Place,1.0
 Linwood Street,30.0
 Lion Street,2.0
 Lisk Avenue,3.0
 Little Clove Road,5.0
-Little Neck Parkway,54.0
+Little Neck Parkway,68.0
 Little West 12 Street,2.0
 Livermore Avenue,5.0
-Liverpool Street,11.0
+Liverpool Street,16.0
 Livingston Avenue,1.0
 Livingston Street,47.0
 Livonia Avenue,119.0
@@ -3507,12 +2700,13 @@ Lodovick Avenue,3.0
 Logan Avenue,13.0
 Logan Street,61.0
 Lombardy Street,8.0
-Long Island Expressway,1552.0
+Long Island Expressway,1553.0
 Long Island Expressway (Cdr),3.0
-Long Street,10.0
+Long Street,12.0
 Longfellow Avenue,37.0
 Longstreet Avenue,2.0
 Longwood Avenue,45.0
+Loretta Road,2.0
 Lorillard Place,2.0
 Lorimer Street,74.0
 Loring Avenue,19.0
@@ -3525,6 +2719,7 @@ Loubet Street,5.0
 Louis Place,3.0
 Louisiana Avenue,35.0
 Low Terrace,1.0
+Lowe Court,1.0
 Lowell Street,2.0
 Lowerre Place,1.0
 Lucas Street,1.0
@@ -3550,6 +2745,7 @@ Macdonough Place,7.0
 Macdonough Street,40.0
 Macdougal Street,13.0
 Mace Avenue,34.0
+Macnish Street,1.0
 Macombs Dam Bridge,48.0
 Macombs Place,23.0
 Macombs Road,40.0
@@ -3558,14 +2754,14 @@ Macy Place,4.0
 Madison Avenue,314.0
 Madison Avenue Bridge,1.0
 Madison Place,2.0
-Madison Street,113.0
+Madison Street,117.0
 Magaw Place,3.0
 Magenta Street,11.0
 Maguire Avenue,6.0
 Mahan Avenue,1.0
 Maiden Lane,19.0
-Main Avenue,4.0
-Main Street,206.0
+Main Avenue,7.0
+Main Street,249.0
 Maitland Avenue,1.0
 Major Deegan Expressway,1075.0
 Major Deegan Expressway Ramp,4.0
@@ -3579,19 +2775,20 @@ Manhattan Bridge,2.0
 Manhattan College Parkway,9.0
 Manhattan Court,2.0
 Manida Street,12.0
+Manilla Street,1.0
 Mann Avenue,1.0
 Manor Avenue,14.0
 Manor Road,67.0
 Manse Street,1.0
 Mansion Avenue,1.0
 Mansion Street,1.0
-Manton Street,3.0
+Manton Street,4.0
 Mapes Avenue,10.0
-Maple Avenue,10.0
+Maple Avenue,13.0
 Maple Parkway,1.0
 Maple Street,19.0
 Maran Place,2.0
-Marathon Parkway,14.0
+Marathon Parkway,17.0
 Marble Hill Avenue,7.0
 Marconi Place,1.0
 Marcus Garvey Boulevard,103.0
@@ -3615,26 +2812,29 @@ Marne Place,3.0
 Marolla Place,3.0
 Mars Place,3.0
 Marscher Place,1.0
-Marsden Street,4.0
-Martense Avenue,5.0
+Marsden Street,5.0
+Martense Avenue,14.0
 Martense Street,16.0
 Martha Avenue,2.0
 Martin Avenue,3.0
+Martin Court,1.0
 Martin Luther King Jr,14.0
 Martling Avenue,7.0
 Marvin Road,1.0
 Mary Street,1.0
 Maryland Avenue,1.0
 Mason Avenue,13.0
-Maspeth Avenue,29.0
+Maspeth Avenue,35.0
 Matilda Avenue,3.0
 Matthews Avenue,11.0
 Matthewson Road,1.0
 Maujer Street,21.0
-Maurice Avenue,54.0
-Mayda Road,7.0
+Maurice Avenue,59.0
+Mayda Road,12.0
 Mayfair Drive South,3.0
+Mayfield Road,1.0
 Mayflower Avenue,3.0
+Mazeau Street,2.0
 Mc Clancy Place,2.0
 Mc Donald Avenue,165.0
 Mc Guinness Blvd South,6.0
@@ -3643,31 +2843,33 @@ Mc Keever Place,3.0
 Mc Kibbin Street,7.0
 Mc Kinley Avenue,9.0
 Mcbaine Avenue,1.0
-Mcbride Street,4.0
+Mcbride Street,5.0
 Mcclean Avenue,19.0
 Mcclellan Street,8.0
 Mcdonald Street,1.0
 Mcgraw Avenue,6.0
-Mclaughlin Avenue,4.0
+Mclaughlin Avenue,5.0
+Meadow Drive,1.0
 Meadow Lane,1.0
+Meadow Road,1.0
 Meadow Street,11.0
 Meeker Avenue,95.0
 Meisner Avenue,1.0
-Melbourne Avenue,4.0
+Melbourne Avenue,10.0
 Melrose Avenue,76.0
 Melrose Street,7.0
 Melville Street,2.0
 Melvin Avenue,4.0
-Memphis Avenue,2.0
-Menahan Street,20.0
-Mentone Avenue,3.0
+Memphis Avenue,3.0
+Menahan Street,22.0
+Mentone Avenue,5.0
 Mercer Street,14.0
 Meredith Avenue,2.0
 Merivale Lane,1.0
 Merle Place,5.0
 Mermaid Avenue,53.0
 Merriam Avenue,10.0
-Merrick Boulevard,329.0
+Merrick Boulevard,405.0
 Merrill Avenue,3.0
 Merrill Street,2.0
 Merritt Avenue,7.0
@@ -3677,7 +2879,7 @@ Mersereau Avenue,1.0
 Meserole Avenue,17.0
 Meserole Street,19.0
 Metcalf Avenue,31.0
-Metropolitan Avenue,405.0
+Metropolitan Avenue,505.0
 Metropolitan Oval,15.0
 Metrotech Center,9.0
 Mexico Street,1.0
@@ -3688,7 +2890,7 @@ Middlemay Circle,1.0
 Middleton Street,11.0
 Middletown Road,12.0
 Midland Avenue,14.0
-Midland Parkway,9.0
+Midland Parkway,11.0
 Midwood Street,17.0
 Milburn Street,1.0
 Mildred Avenue,1.0
@@ -3742,37 +2944,37 @@ Mosel Avenue,7.0
 Mosholu Avenue,9.0
 Mosholu Parkway,42.0
 Mosholu Parkway Extension,1.0
-Mott Avenue,33.0
+Mott Avenue,56.0
 Mott Street,30.0
 Mount Eden Parkway,17.0
 Mount Hope Place,13.0
 Mount Morris Park West,3.0
-Mount Olivet Crescent,1.0
+Mount Olivet Crescent,3.0
 Mountainview Avenue,1.0
 Mulberry Street,22.0
 Muliner Avenue,3.0
 Mundy Lane,1.0
-Murdock Avenue,64.0
+Murdock Avenue,74.0
 Murray Street,26.0
-Musket Street,1.0
-Myrtle Avenue,513.0
+Musket Street,2.0
+Myrtle Avenue,585.0
 Nagle Avenue,53.0
-Nameoke Avenue,2.0
-Nameoke Street,6.0
+Nameoke Avenue,6.0
+Nameoke Street,7.0
 Nancy Lane,1.0
 Naples Terrace,1.0
 Narrows Avenue,5.0
 Narrows Road North,42.0
 Narrows Road South,2.0
-Nashville Boulevard,6.0
+Nashville Boulevard,14.0
 Nashville Street,1.0
 Nassau Avenue,27.0
-Nassau Boulevard,4.0
+Nassau Boulevard,5.0
 Nassau Expressway,23.0
 Nassau Place,1.0
 Nassau Street,19.0
 Natick Street,3.0
-National Street,18.0
+National Street,25.0
 Naughton Avenue,2.0
 Nautilus Avenue,1.0
 Navesink Place,1.0
@@ -3782,7 +2984,7 @@ Neal Dow Avenue,2.0
 Needham Avenue,16.0
 Nehring Avenue,1.0
 Neill Avenue,12.0
-Neilson Street,7.0
+Neilson Street,9.0
 Nellis Street,1.0
 Nelson Avenue,38.0
 Nelson Street,7.0
@@ -3795,7 +2997,7 @@ Nevins Street,34.0
 New Dorp Lane,26.0
 New Dorp Plaza,3.0
 New England Thruway,22.0
-New Haven Avenue,14.0
+New Haven Avenue,30.0
 New Jersey Avenue,28.0
 New Lots Avenue,129.0
 New Street,4.0
@@ -3806,14 +3008,16 @@ Newbold Avenue,14.0
 Newburg Street,9.0
 Newel Street,15.0
 Newell Street,1.0
+Newhall Avenue,2.0
 Newkirk Avenue,57.0
 Newman Avenue,4.0
-Newport Avenue,10.0
+Newport Avenue,11.0
 Newport Street,42.0
 Newton Street,2.0
-Newtown Avenue,3.0
-Newtown Road,12.0
+Newtown Avenue,7.0
+Newtown Road,14.0
 Nichols Avenue,7.0
+Nicolls Avenue,2.0
 Nippon Avenue,3.0
 Noble Avenue,18.0
 Noble Street,2.0
@@ -3840,7 +3044,7 @@ North 9 Street,5.0
 North Avenue,1.0
 North Bridge Street,4.0
 North Burgher Avenue,2.0
-North Conduit Avenue,406.0
+North Conduit Avenue,429.0
 North Drive,1.0
 North Elliott Place,1.0
 North End Avenue,6.0
@@ -3855,16 +3059,16 @@ North Portland Avenue,20.0
 North Railroad Avenue,7.0
 North Saint Austins Place,1.0
 North Street,3.0
-Northern Boulevard,647.0
+Northern Boulevard,878.0
 Northfield Avenue,1.0
 Norton Avenue,1.0
-Norton Drive,5.0
+Norton Drive,6.0
 Norwalk Avenue,3.0
 Norway Avenue,3.0
 Norwood Avenue,9.0
 Nostrand Avenue,637.0
 Nunley Court,1.0
-Nurge Avenue,4.0
+Nurge Avenue,5.0
 Oak Avenue,5.0
 Oak Park Drive,1.0
 Oak Point Avenue,32.0
@@ -3882,6 +3086,7 @@ Ocean Terrace,7.0
 Oceania Street,5.0
 Oceanic Avenue,1.0
 Oceanview Avenue,17.0
+Oconnell Court,1.0
 Odell Street,4.0
 Ogden Avenue,63.0
 Ogorman Avenue,1.0
@@ -3913,7 +3118,7 @@ Osgood Avenue,5.0
 Osgood Street,1.0
 Oswego Street,1.0
 Otis Avenue,15.0
-Otto Road,10.0
+Otto Road,11.0
 Outlook Avenue,3.0
 Overbaugh Place,3.0
 Overing Street,10.0
@@ -3927,25 +3132,25 @@ Paerdegat 3 Street,3.0
 Paerdegat 7 Street,4.0
 Paerdegat Avenue North,2.0
 Page Avenue,30.0
-Page Place,1.0
+Page Place,3.0
 Paidge Avenue,1.0
 Paladino Avenue,3.0
 Palisade Avenue,5.0
 Palisade Place,2.0
 Palma Drive,3.0
 Palmer Avenue,5.0
-Palmetto Street,32.0
+Palmetto Street,33.0
 Parade Place,8.0
 Park Avenue,561.0
 Park Avenue South,63.0
 Park Circle,20.0
 Park Drive,8.0
-Park Drive East,12.0
+Park Drive East,25.0
 Park Hill Avenue,20.0
 Park Hill Circle,1.0
 Park Hill Lane,3.0
-Park Lane,1.0
-Park Lane South,39.0
+Park Lane,2.0
+Park Lane South,57.0
 Park Place,90.0
 Park Row,16.0
 Park Terrace West,1.0
@@ -3958,7 +3163,7 @@ Parkview Avenue,1.0
 Parkview Terrace,1.0
 Parkville Avenue,5.0
 Parrott Place,1.0
-Parsons Boulevard,151.0
+Parsons Boulevard,204.0
 Patchen Avenue,53.0
 Patterson Avenue,1.0
 Paul Avenue,10.0
@@ -3969,7 +3174,7 @@ Pearsall Avenue,9.0
 Pearson Place,1.0
 Pearson Street,7.0
 Peartree Avenue,1.0
-Peck Avenue,3.0
+Peck Avenue,4.0
 Peck Slip,4.0
 Peconic Street,3.0
 Pelham Parkway,15.0
@@ -3978,7 +3183,7 @@ Pelham Parkway South,36.0
 Pell Place,1.0
 Pelton Avenue,4.0
 Pendleton Place,2.0
-Penelope Avenue,12.0
+Penelope Avenue,14.0
 Penfield Street,1.0
 Penn Street,5.0
 Pennsylvania Avenue,515.0
@@ -3988,11 +3193,12 @@ Perkiomen Avenue,3.0
 Perot Street,3.0
 Perry Avenue,30.0
 Perry Street,1.0
+Pershing Crescent,3.0
 Peters Place,1.0
 Pettit Avenue,2.0
 Philip Avenue,14.0
 Piave Avenue,1.0
-Pidgeon Meadow Road,7.0
+Pidgeon Meadow Road,8.0
 Piedmont Avenue,1.0
 Pierce Avenue,8.0
 Pierce Street,3.0
@@ -4002,11 +3208,11 @@ Pike Street,9.0
 Pilling Street,6.0
 Pilot Street,3.0
 Pine Street,24.0
-Pinegrove Street,6.0
+Pinegrove Street,7.0
 Pinehurst Avenue,6.0
-Pineville Lane,2.0
-Pinson Street,2.0
-Pitkin Avenue,323.0
+Pineville Lane,3.0
+Pinson Street,7.0
+Pitkin Avenue,324.0
 Pitman Avenue,19.0
 Pitt Street,22.0
 Plainview Avenue,3.0
@@ -4022,7 +3228,7 @@ Plimpton Avenue,14.0
 Plumb 1 Street,4.0
 Plumb 2 Street,2.0
 Plymouth Avenue,1.0
-Polhemas Avenue,4.0
+Polhemas Avenue,6.0
 Polhemus Place,1.0
 Police Plaza,2.0
 Poly Place,4.0
@@ -4052,8 +3258,8 @@ Prentiss Avenue,4.0
 Prescott Avenue,6.0
 President Street,47.0
 Preston Court,8.0
-Prince Street,52.0
-Princeton Street,14.0
+Prince Street,57.0
+Princeton Street,15.0
 Prospect Avenue,138.0
 Prospect Court,1.0
 Prospect Expressway,4.0
@@ -4071,17 +3277,18 @@ Pulaski Street,31.0
 Purdy Avenue,2.0
 Purdy Street,6.0
 Puritan Avenue,1.0
-Putnam Avenue,64.0
+Purves Street,1.0
+Putnam Avenue,70.0
 Putnam Avenue West,4.0
 Putnam Place,3.0
 Quarry Road,5.0
 Quay Street,1.0
 Queen Street,1.0
-Queens Boulevard,589.0
+Queens Boulevard,693.0
 Queens Midtown Tunnel,2.0
 Queens Midtown Tunnel Exit,6.0
-Queens Plaza North,25.0
-Queens Plaza South,69.0
+Queens Plaza North,28.0
+Queens Plaza South,70.0
 Queens Street,1.0
 Queensboro Bridge,17.0
 Queensboro Bridge Lower,7.0
@@ -4097,7 +3304,7 @@ Quinn Street,4.0
 Quintard Street,2.0
 R 10 Street,1.0
 Racal Court,3.0
-Radcliff Avenue,8.0
+Radcliff Avenue,10.0
 Radnor Road,1.0
 Radnor Street,1.0
 Rae Avenue,3.0
@@ -4115,21 +3322,23 @@ Reade Street,11.0
 Reads Lane,1.0
 Rector Place,8.0
 Rector Street,1.0
-Redfern Avenue,5.0
+Redfern Avenue,13.0
 Redwood Avenue,1.0
 Reed Street,2.0
+Reeder Street,1.0
 Reeds Mill Lane,8.0
 Reeve Place,1.0
 Reeves Avenue,6.0
 Regal Walk,1.0
 Regent Place,6.0
-Regina Avenue,1.0
+Regina Avenue,4.0
 Regis Drive,10.0
 Reid Avenue,77.0
-Remington Street,11.0
+Remington Street,17.0
 Remsen Avenue,272.0
 Remsen Place,3.0
 Remsen Street,7.0
+Rene Court,1.0
 Renwick Avenue,1.0
 Renwick Street,1.0
 Reon Avenue,4.0
@@ -4139,7 +3348,7 @@ Reservoir Oval West,2.0
 Retford Avenue,1.0
 Revere Avenue,8.0
 Revere Place,2.0
-Review Avenue,25.0
+Review Avenue,26.0
 Review Place,1.0
 Rewe Street,3.0
 Reynolds Avenue,1.0
@@ -4147,6 +3356,7 @@ Rhinelander Avenue,27.0
 Richards Street,5.0
 Richardson Avenue,5.0
 Richardson Street,12.0
+Richland Avenue,1.0
 Richmond Avenue,314.0
 Richmond Hill Road,43.0
 Richmond Road,162.0
@@ -4167,7 +3377,8 @@ River Road,1.0
 River Street,1.0
 Riverdale Avenue,130.0
 Riverside Boulevard,6.0
-Riverside Drive,196.0
+Riverside Drive,197.0
+Riverside Drive West,1.0
 Riverton Street,1.0
 Rivington Avenue,6.0
 Rivington Street,15.0
@@ -4179,11 +3390,11 @@ Robinson Street,11.0
 Rochambeau Avenue,8.0
 Rochester Avenue,91.0
 Rockaway Avenue,299.0
-Rockaway Beach Boulevard,98.0
-Rockaway Boulevard,381.0
+Rockaway Beach Boulevard,156.0
+Rockaway Boulevard,465.0
 Rockaway Freeway,45.0
 Rockaway Parkway,380.0
-Rockaway Point Boulevard,7.0
+Rockaway Point Boulevard,10.0
 Rockefeller Plaza,1.0
 Rockland Avenue,28.0
 Rockwell Place,3.0
@@ -4198,11 +3409,12 @@ Rogers Place,4.0
 Roma Avenue,4.0
 Rombouts Avenue,11.0
 Rome Drive,1.0
-Roosevelt Avenue,203.0
+Roosevelt Avenue,348.0
 Roosevelt Drive,1.0
 Roosevelt Place,1.0
 Ropes Avenue,7.0
-Rose Avenue,3.0
+Rose Avenue,5.0
+Rose Street,1.0
 Rosebank Place,2.0
 Rosedale Avenue,49.0
 Rosewood Place,2.0
@@ -4217,9 +3429,10 @@ Rugby Road,10.0
 Rumson Road,1.0
 Rupert Avenue,1.0
 Ruppert Place,1.0
+Ruscoe Street,1.0
 Russek Drive,1.0
-Russell Street,8.0
-Rust Street,8.0
+Russell Street,9.0
+Rust Street,10.0
 Rutgers Slip,3.0
 Rutgers Street,2.0
 Rutherford Place,1.0
@@ -4237,6 +3450,7 @@ Sacket Avenue,1.0
 Sackett Street,17.0
 Sackman Street,18.0
 Sagamore Avenue,1.0
+Sage Street,1.0
 Saint Albans Place,1.0
 Saint Anns Avenue,104.0
 Saint Clair Place,10.0
@@ -4272,12 +3486,12 @@ Sand Lane,21.0
 Sandford Street,2.0
 Sands Place,1.0
 Sands Street,28.0
-Sanford Avenue,57.0
+Sanford Avenue,61.0
 Saratoga Avenue,122.0
-Saull Street,4.0
-Saultell Avenue,9.0
-Saunders Street,10.0
-Sayres Avenue,18.0
+Saull Street,5.0
+Saultell Avenue,11.0
+Saunders Street,11.0
+Sayres Avenue,20.0
 Schaefer Street,15.0
 Schenck Avenue,39.0
 Schenck Court,1.0
@@ -4300,7 +3514,7 @@ Seabury Avenue,4.0
 Seabury Place,2.0
 Seabury Street,5.0
 Seagirt Avenue,6.0
-Seagirt Boulevard,82.0
+Seagirt Boulevard,94.0
 Seaman Avenue,17.0
 Seaver Avenue,3.0
 Seaview Avenue,97.0
@@ -4314,14 +3528,14 @@ Seguine Loop,1.0
 Seguine Place,1.0
 Seigel Street,9.0
 Selfridge Street,3.0
-Selover Road,1.0
+Selover Road,2.0
 Selwyn Avenue,11.0
 Senator Street,8.0
 Seneca Avenue,52.0
 Seneca Street,1.0
 Seton Avenue,3.0
 Seton Place,1.0
-Seward Avenue,39.0
+Seward Avenue,40.0
 Sexton Place,4.0
 Seymour Avenue,15.0
 Shad Creek Road,1.0
@@ -4345,10 +3559,10 @@ Shiloh Avenue,1.0
 Shiloh Street,1.0
 Shirra Avenue,1.0
 Shore Avenue,5.0
-Shore Boulevard,34.0
+Shore Boulevard,39.0
 Shore Drive,1.0
-Shore Front Parkway,21.0
-Shore Parkway,121.0
+Shore Front Parkway,33.0
+Shore Parkway,123.0
 Shore Road,20.0
 Shore Road Drive,13.0
 Sidway Place,1.0
@@ -4358,13 +3572,15 @@ Silver Street,9.0
 Simmons Lane,1.0
 Simonson Avenue,5.0
 Simonson Place,3.0
+Simonson Street,1.0
 Simpson Street,10.0
 Skidmore Avenue,4.0
-Skillman Avenue,44.0
+Skillman Avenue,46.0
 Skillman Street,15.0
 Sky Lane,1.0
 Slaight Street,1.0
 Slater Boulevard,3.0
+Sloan Street,1.0
 Slocum Place,1.0
 Slosson Avenue,23.0
 Smart Street,4.0
@@ -4376,7 +3592,7 @@ Snyder Avenue,107.0
 Sobel Court,2.0
 Soho Drive,1.0
 Somers Street,6.0
-Somerset Street,2.0
+Somerset Street,3.0
 Sound View Avenue,68.0
 South 1 Street,19.0
 South 10 Street,3.0
@@ -4390,7 +3606,7 @@ South 8 Street,9.0
 South 9 Street,5.0
 South Avenue,81.0
 South Bridge Street,1.0
-South Conduit Avenue,322.0
+South Conduit Avenue,360.0
 South Elliott Place,5.0
 South End Avenue,17.0
 South Gannon Avenue,10.0
@@ -4401,7 +3617,7 @@ South Pinehurst Avenue,1.0
 South Portland Avenue,10.0
 South Railroad Avenue,12.0
 South Railroad Street,1.0
-South Road,16.0
+South Road,23.0
 South Street,50.0
 South William Street,1.0
 Southern Boulevard,322.0
@@ -4418,7 +3634,7 @@ Spofford Avenue,12.0
 Sprague Avenue,1.0
 Spratt Avenue,1.0
 Spring Street,38.0
-Springfield Boulevard,224.0
+Springfield Boulevard,272.0
 Springhill Avenue,1.0
 Spritz Road,1.0
 Stadium Avenue,10.0
@@ -4438,7 +3654,7 @@ Station Road,7.0
 Stebbins Avenue,14.0
 Steenwick Avenue,2.0
 Steinway Avenue,3.0
-Steinway Street,98.0
+Steinway Street,175.0
 Stephen Loop,1.0
 Stephen Street,6.0
 Stephens Court,1.0
@@ -4459,9 +3675,11 @@ Story Avenue,56.0
 Strang Avenue,7.0
 Stratford Avenue,26.0
 Stratford Road,5.0
+Stratton Street,1.0
 Strauss Street,21.0
 Street,28.0
 Strickland Avenue,6.0
+Strong Avenue,1.0
 Stronghurst Avenue,1.0
 Stryker Street,1.0
 Stuart Street,8.0
@@ -4471,18 +3689,19 @@ Stuyvesant Place,7.0
 Suffolk Street,7.0
 Sullivan Place,10.0
 Sullivan Street,14.0
-Summerfield Avenue,1.0
+Summerfield Avenue,2.0
 Summit Avenue,4.0
 Sumner Avenue,4.0
 Sumner Place,4.0
 Sumpter Street,9.0
+Sunbury Road,1.0
 Sunnyside Avenue,4.0
 Sunnyside Terrace,2.0
 Sunrise Highway,48.0
 Surf Avenue,93.0
-Sutphin Boulevard,121.0
-Sutter Avenue,365.0
-Sutton Place,4.0
+Sutphin Boulevard,165.0
+Sutter Avenue,371.0
+Sutton Place,5.0
 Sutton Place South,1.0
 Sutton Street,1.0
 Suydam Street,14.0
@@ -4513,7 +3732,7 @@ Thayer Street,11.0
 Thieriot Avenue,20.0
 Thomas Street,2.0
 Thompson Street,13.0
-Thomson Avenue,53.0
+Thomson Avenue,57.0
 Thornton Place,1.0
 Thornycroft Avenue,1.0
 Throgs Neck Boulevard,3.0
@@ -4550,7 +3769,7 @@ Torry Avenue,3.0
 Totten Street,1.0
 Tottenville Place,1.0
 Townsend Avenue,19.0
-Traffic Avenue,3.0
+Traffic Avenue,4.0
 Transverse Road Number Four,15.0
 Transverse Road Number One,15.0
 Transverse Road Number Three,8.0
@@ -4576,15 +3795,15 @@ Turner Avenue,1.0
 Tyler Avenue,4.0
 Tyndall Avenue,1.0
 Tysens Lane,24.0
-Ulmer Street,6.0
+Ulmer Street,8.0
 Undercliff Avenue,23.0
 Underhill Avenue,34.0
 Union Avenue,123.0
-Union Hall Street,5.0
+Union Hall Street,10.0
 Union Square East,8.0
 Union Square West,2.0
-Union Street,184.0
-Union Turnpike,189.0
+Union Street,205.0
+Union Turnpike,258.0
 Unionport Road,28.0
 University Avenue,190.0
 University Park,2.0
@@ -4592,7 +3811,7 @@ University Place,5.0
 Unknown,45.0
 Urbana Street,3.0
 Utica Avenue,673.0
-Utopia Parkway,73.0
+Utopia Parkway,87.0
 Utter Avenue,3.0
 Uxbridge Street,3.0
 Valentine Avenue,78.0
@@ -4608,36 +3827,38 @@ Van Wyck Expressway (Cdr),1.0
 Van Wyck Expwy,963.0
 Vanallen Avenue,1.0
 Vanburen Street,3.0
+Vancleef Street,3.0
 Vancortlandt Avenue,1.0
 Vancortlandt Avenue East,11.0
 Vancortlandt Avenue West,13.0
 Vancortlandt Park East,5.0
 Vancortlandt Park West,1.0
 Vandalia Avenue,19.0
-Vandam Street,98.0
+Vandam Street,102.0
 Vanderbilt Avenue,105.0
 Vanderbilt Street,2.0
 Vanderveer Place,1.0
 Vanderveer Street,1.0
-Vandoren Street,2.0
+Vandoren Street,3.0
 Vanduzer Street,31.0
-Vanhorn Street,3.0
-Vanloon Street,3.0
+Vanhorn Street,7.0
+Vanloon Street,4.0
 Vanname Avenue,1.0
 Vannest Avenue,20.0
 Vanriper Street,2.0
-Vanwyck Expressway,93.0
+Vanwyck Expressway,125.0
 Vanzandt Avenue,3.0
 Varet Street,3.0
 Varick Avenue,22.0
 Varick Street,70.0
+Vaswani Avenue,1.0
 Vaughan Street,1.0
 Vermilyea Avenue,18.0
 Vermont Avenue,2.0
 Vermont Place,15.0
 Vermont Street,22.0
 Vernon Avenue,17.0
-Vernon Boulevard,98.0
+Vernon Boulevard,127.0
 Verona Place,1.0
 Verona Street,3.0
 Veronica Place,9.0
@@ -4653,6 +3874,7 @@ Victor Street,5.0
 Victory Boulevard,179.0
 Viele Avenue,13.0
 Villa Avenue,11.0
+Village Road,1.0
 Village Road East,3.0
 Vincent Avenue,3.0
 Vine Street,1.0
@@ -4673,7 +3895,7 @@ Wakeman Place,7.0
 Walbrooke Avenue,2.0
 Waldo Avenue,8.0
 Waldorf Court,1.0
-Waldron Street,6.0
+Waldron Street,9.0
 Wales Avenue,13.0
 Walker Street,30.0
 Wall Street,13.0
@@ -4682,15 +3904,16 @@ Wallace Avenue,24.0
 Walloon Street,4.0
 Walnut Avenue,16.0
 Walsh Court,1.0
-Waltham Street,6.0
+Waltham Street,8.0
 Walton Avenue,131.0
 Walton Street,4.0
 Walworth Street,7.0
 Wanamaker Place,3.0
 Wandell Avenue,1.0
 Ward Avenue,10.0
+Wareham Place,1.0
 Waring Avenue,28.0
-Warren Street,43.0
+Warren Street,47.0
 Warsoff Place,3.0
 Warwick Street,38.0
 Washington Avenue,267.0
@@ -4712,7 +3935,7 @@ Waters Place,26.0
 Watkins Avenue,3.0
 Watkins Street,5.0
 Watson Avenue,72.0
-Watson Place,3.0
+Watson Place,4.0
 Watts Street,24.0
 Wave Street,2.0
 Waverly Avenue,13.0
@@ -4725,7 +3948,8 @@ Weeks Avenue,7.0
 Weirfield Street,26.0
 Weldon Street,1.0
 Weller Avenue,3.0
-Weller Lane,2.0
+Weller Lane,3.0
+Welling Court,1.0
 Wellman Avenue,2.0
 Wells Street,1.0
 Wentworth Avenue,1.0
@@ -4997,12 +4221,12 @@ Westchester Square,10.0
 Westcott Boulevard,1.0
 Western Avenue,3.0
 Westervelt Avenue,16.0
-Westgate Street,1.0
+Westgate Street,6.0
 Westmoreland Street,1.0
 Westside Avenue,2.0
 Westwood Avenue,3.0
-Wetherole Street,7.0
-Wexford Terrace,8.0
+Wetherole Street,8.0
+Wexford Terrace,11.0
 Whalley Avenue,1.0
 Wharton Place,1.0
 Wheatley Street,2.0
@@ -5011,11 +4235,11 @@ Whipple Street,25.0
 White Plains Road,504.0
 White Street,8.0
 Whitehall Street,10.0
-Whitehall Terrace,2.0
-Whitestone Expressway,219.0
+Whitehall Terrace,3.0
+Whitestone Expressway,223.0
 Whitlock Avenue,9.0
 Whitman Avenue,1.0
-Whitney Avenue,15.0
+Whitney Avenue,17.0
 Whittemore Avenue,1.0
 Whittier Street,9.0
 Whitty Lane,1.0
@@ -5026,7 +4250,7 @@ Wild Avenue,5.0
 Wilder Avenue,26.0
 Wilkens Avenue,2.0
 Wilkinson Avenue,1.0
-Willets Point Boulevard,16.0
+Willets Point Boulevard,19.0
 Willett Avenue,11.0
 Willett Street,3.0
 William Street,19.0
@@ -5056,7 +4280,7 @@ Wilson Street,14.0
 Winant Avenue,7.0
 Winant Street,2.0
 Winchester Avenue,1.0
-Winchester Boulevard,12.0
+Winchester Boulevard,17.0
 Windermere Road,3.0
 Windham Loop,2.0
 Windsor Place,4.0
@@ -5067,25 +4291,25 @@ Winter Avenue,1.0
 Winthrop Street,145.0
 Wissman Avenue,4.0
 Withers Street,9.0
-Witthoff Street,3.0
+Witthoff Street,4.0
 Wolcott Avenue,3.0
 Wolcott Street,1.0
 Wolkoff Lane,1.0
 Wood Avenue,6.0
 Wood Road,6.0
 Wood Street,8.0
-Woodbine Street,16.0
+Woodbine Street,22.0
 Woodcrest Road,1.0
-Woodhaven Boulevard,411.0
+Woodhaven Boulevard,433.0
 Woodhaven Court,1.0
-Woodhull Avenue,10.0
+Woodhull Avenue,11.0
 Woodpoint Road,1.0
 Woodrow Road,10.0
 Woodruff Avenue,9.0
 Woodruff Lane,1.0
 Woods Of Arden Road,8.0
 Woods Place,7.0
-Woodside Avenue,36.0
+Woodside Avenue,48.0
 Woodvale Avenue,1.0
 Woodward Avenue,40.0
 Woodycrest Avenue,18.0
@@ -5101,8 +4325,9 @@ Wyckoff Street,7.0
 Wyona Street,39.0
 Wythe Avenue,89.0
 Wythe Place,10.0
+Xenia Street,1.0
 Yates Avenue,18.0
-Yellowstone Boulevard,44.0
+Yellowstone Boulevard,45.0
 Yetman Avenue,1.0
 York Avenue,96.0
 York Street,4.0
