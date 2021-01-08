@@ -2,7 +2,7 @@ from flask import Flask
 from flask import Flask, request, render_template,flash
 from flask_bootstrap import Bootstrap
 import os
-from ny_map_osmnx import getSafest,isPresent
+from ny_map_osmnx import NYMapOSMnx
 from flask_wtf.csrf import CSRFProtect
 
 csrf = CSRFProtect()
@@ -28,7 +28,8 @@ def test():
     print(origin)
     destination = request.form["destination"]
     print(destination)
-    coordinate = isPresent(origin,destination)
+    NYMapOSMnx()
+    coordinate = NYMapOSMnx.isPresent(origin,destination)
     #result = getSafest(origin,destination)
     if coordinate != True:
         flash(u'Look like you have entered a wrong origin or destination', 'error')
