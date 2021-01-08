@@ -13,5 +13,5 @@ import matplotlib.colors as colors
 #gdf_nodes, gdf_edges = ox.graph_to_gdfs(G)
 #gdf_nodes.to_csv('nodes.csv',index=False)
 #gdf_edges.to_csv('edges.csv',index=False)
-test = pd.read_csv('edges.csv')
-print(test.name.head())
+test = pd.read_csv('data/edges_of_nyc.csv')
+print(test.name)
