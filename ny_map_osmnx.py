@@ -50,7 +50,7 @@ class NYMapOSMnx:
         nx.set_edge_attributes(G, 0, 'danger_weight')
 
         route1 = ox.shortest_path(G, origin, destination, weight='danger_weight')
-        route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route, 'danger_weight')))              # print the risk on this road
+        route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route1, 'danger_weight')))              # print the risk on this road
         txt = 'The risk on this Route is {} accidents per year'.format(route_risk)
 
         if short:
