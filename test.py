@@ -28,6 +28,6 @@ def shortest_safest(origin,destination):
 
 orig = list(G)[0]
 dest = list(G)[120]
-# safest_way(orig,dest)
+safest_way(orig,dest)
 shortest_safest(orig,dest)
 
