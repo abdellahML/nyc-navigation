@@ -10,7 +10,7 @@
   
 <div class="row">
 
-    <h1 style="margin-top:5rem;text-align:center;margin-bottom:5rem">Discover the safest path for you desired distination {{message}}</h1>
+    <h1 style="margin-top:5rem;text-align:center;margin-bottom:5rem">Discover the safest path for you desired destination {{message}}</h1>
     {% with messages = get_flashed_messages(with_categories=true) %}
   {% if messages %}
     <ul class=flashes>
@@ -28,7 +28,7 @@
         <div class="col-sm-6">
           <input type="text" class="form-control" placeholder="Destination" aria-label="Destination" name="destination" value="{{request.form.destination}}">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button style='margin-top:2rem;'type="submit" class="btn btn-primary">Submit</button>
     </form>
 
 </div>

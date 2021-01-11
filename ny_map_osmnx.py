@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 
-df = pd.read_csv('data/edges_of_nyc.csv')
+
 ####Create a class path who will define our function for the project.
 ### Our class should take as parameter the origin and destination at least
 
@@ -16,9 +16,12 @@ df = pd.read_csv('data/edges_of_nyc.csv')
 place = 'New york city,New York, USA'
 G = ox.graph_from_place(place, network_type='drive')
 
-
 class NYMapOSMnx:
-    """This class will create the edge graph of New York and will find the shortest and least dangerous route from a to b"""
+    def __init__(self):
+        self.origin = origin
+        self.destination = destination
+        self.df = pd.read_csv('data/edges_of_nyc.csv')
+   ## self.G = ox.graph_from_place(place, network_type='drive') do we need this ? 
 
     def creat_graph(self, place: str):
         """This function will create the graph of New York and return it"""
@@ -28,28 +31,22 @@ class NYMapOSMnx:
         return G
 
 
-    def getSafest(self, origin, destination):
-        route = ox.shortest_path(G, origin, destination, weight='length')
-        #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
-        #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
-
-    def isPresent(self, origin, destination):
-        if origin == df.name and destination == df.name :
-            print('coucou')
+    def isPresent(self,origin,destination):
+        if origin in self.df.name and destination in self.df.name :
+            ## call getSafest
             return True
-        elif origin != df.name:
-            print('coucou2')
-            return 'Wrong origin'
-        elif destination != df.name:
-            print('coucou3')
-            return 'Wrong destination'
-    #fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)
+        elif origin not in self.df.name:
+            return False
+        elif destination not in self.df.name:
+            return False
 
-    # convert your MultiDiGraph to an undirected MultiGraph
-    #M = ox.get_undirected(G)
-    # convert your MultiDiGraph to a DiGraph without parallel edges
-    #D = ox.get_digraph(G)
-    #fig, ax = ox.plot_graph(G,node_size=0, edge_linewidth=0.5)
+    def safest_way(origin,destination):                                                                 # select safest route
+        route = ox.shortest_path(G, origin, destination, weight='danger_weight')
+        fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)        # plot the safest road
+        route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route, 'danger_weight')))      # print the risk on this road
+        txt1 = 'The risk on this Route is ' 
+        txt2 =  ' accidents per year'
+        return fig,txt1,txt2,route_risk
 
 place = 'New york city,New York, USA'
 G = ox.graph_from_place(place, network_type='drive')
