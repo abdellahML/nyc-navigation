@@ -15,6 +15,7 @@ def safest_way(origin,destination):                                             
     txt1 = 'The risk on this Route is ' 
     txt2 =  ' accidents per year'
     return fig,txt1,txt2,route_risk
+    
 def shortest_safest(origin,destination):
     route1 = ox.shortest_path(G, origin, destination, weight='danger_weight') #safest road
     route2 = ox.shortest_path(G, origin, destination, weight='length')        #shortest road
