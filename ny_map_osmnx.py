@@ -45,7 +45,10 @@ class NYMapOSMnx:
         route = ox.shortest_path(G, origin, destination, weight='danger_weight')
         fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)        # plot the safest road
         route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route, 'danger_weight')))      # print the risk on this road
-        print('The risk on this Route is ', route_risk, ' accidents per year')
+        txt1 = 'The risk on this Route is ' 
+        txt2 =  ' accidents per year'
+        return fig,txt1,txt2,route_risk
+
 place = 'New york city,New York, USA'
 G = ox.graph_from_place(place, network_type='drive')
 print(G.head(100))
