@@ -25,7 +25,7 @@ def shortest_safest(origin, destination):
 >>>>>>> 96bf14b55f687d8e78f18797765b2b6ebb731272
     route1 = ox.shortest_path(G, origin, destination, weight='danger_weight') #safest road
     route2 = ox.shortest_path(G, origin, destination, weight='length')        #shortest road
-    fig, ax = ox.plot_graph_routes(G, routes=[route1, route2], route_colors=['r', 'y'],route_linewidth=6, node_size=0)
+    fig, ax = ox.plot_graph_routes(G, routes=[route1, route2], route_colors=['r', 'y'], route_linewidth=6, node_size=0)
     return fig
 
 
