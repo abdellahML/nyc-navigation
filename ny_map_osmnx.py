@@ -22,7 +22,8 @@ class NYMapOSMnx:
 
     def creat_graph(self, place: str):
         """This function will create the graph of New York and return it"""
-        place = 'New york city,New York, USA'
+
+        place = 'New york city, New York, USA'
         G = ox.graph_from_place(place, network_type='drive')
         return G
 
