@@ -40,13 +40,7 @@ class NYMapOSMnx:
         elif destination not in self.df.name:
             return False
 
-    def safest_way(origin, destination):                                                                 # select safest route
-        route = ox.shortest_path(G, origin, destination, weight='danger_weight')
-        fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)        # plot the safest road
-        route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route, 'danger_weight')))      # print the risk on this road
-        txt1 = 'The risk on this Route is ' 
-        txt2 =  ' accidents per year'
-        return fig,txt1,txt2,route_risk
+
 
     def safest_way(self, origin, destination, short=False):                                             # select safest route
 
