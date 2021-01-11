@@ -6,12 +6,59 @@ import pandas as pd
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 
+import csv
 
-#G = ox.graph_from_place('New york city, New York, USA', network_type='drive')
+G = ox.graph_from_place('New york city, New York, USA', network_type='drive')
+
+#G = ox.add_edge_speeds(G)
+
+df = pd.read_csv('nyc-navigation/data/datweight.csv')
+edges = pd.read_csv('nyc-navigation/data/edges_new.csv')
 
 # you can convert your graph to node and edge GeoPandas GeoDataFrames
 #gdf_nodes, gdf_edges = ox.graph_to_gdfs(G)
 #gdf_nodes.to_csv('nodes.csv',index=False)
 #gdf_edges.to_csv('edges.csv',index=False)
-test = pd.read_csv('data/edges_of_nyc.csv')
-print(test.name)
+#test = pd.read_csv('data/edges_of_nyc.csv')
+
+#edges = list(G.edges(keys=True, data=True))
+
+#print(edges[1][3]['name']) 
+
+#print(edges['detail']['name'])
+'''edges_new = []
+
+fields = ['start_edge','end_edge','niv','name']
+
+for i in range(len(edges)):
+
+    if ('name') in edges[i][3]:
+        edges_new.append([edges[i][0], edges[i][1], edges[i][2], edges[i][3]['name']])
+    else:
+        edges_new.append([edges[i][0], edges[i][1], edges[i][2], 'unknown'])
+
+with open('nyc-navigation/data/edges_new.csv', 'w') as f: 
+      
+    # using csv.writer method from CSV package 
+    write = csv.writer(f) 
+      
+    write.writerow(fields) 
+    write.writerows(edges_new)'''
+
+
+df_B=(df.rename(columns={"on_street_name":"name", "SUM":"danger_weight"}))
+df_merged=edges.merge(right=df_B,
+                     how='left', # if an entry is in A, but not in B, add NA values
+                     on=["name"],  # property to merge on
+                    )
+df_merged.fillna(0)
+
+origin_node = ox.get_nearest_node(G, (40.789592,-73.800298)) 
+destination_node = ox.get_nearest_node(G, (40.735079,-73.708458))
+
+nx.set_edge_attributes(G, 0, 'danger_weight')
+route1 = ox.shortest_path(G, origin_node, destination_node, weight='danger_weight')
+route2 = ox.shortest_path(G, origin_node, destination_node, weight='length')
+route = [route1, route2]
+color = ['y' , 'r']
+fig, ax = ox.plot_graph_routes(G, route, route_colors=color, route_linewidth=6, node_size=0)
