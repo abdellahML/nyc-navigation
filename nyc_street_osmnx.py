@@ -11,11 +11,11 @@ from num2words import num2words
 
 import csv
 
-"""G = ox.graph_from_place('New york city, New York, USA', network_type='drive')
+G = ox.graph_from_place('New york city, New York, USA', network_type='drive')
 
 #G = ox.add_edge_speeds(G)
 
-df = pd.read_csv('nyc-navigation/data/datweight.csv')
+df = pd.read_csv('nyc-navigation/data/datweight_2.csv')
 edges = pd.read_csv('nyc-navigation/data/edges_new.csv')
 
 # you can convert your graph to node and edge GeoPandas GeoDataFrames
@@ -49,7 +49,7 @@ with open('nyc-navigation/data/edges_new.csv', 'w') as f:
     write.writerows(edges_new)'''
 
 
-df_B=(df.rename(columns={"on_street_name":"name", "SUM":"danger_weight"}))
+df_B=(df.rename(columns={"filtered_street":"name", "WEIGHT":"danger_weight"}))
 df_merged=edges.merge(right=df_B,
                      how='left', # if an entry is in A, but not in B, add NA values
                      on=["name"],  # property to merge on
@@ -64,9 +64,9 @@ route1 = ox.shortest_path(G, origin_node, destination_node, weight='danger_weigh
 route2 = ox.shortest_path(G, origin_node, destination_node, weight='length')
 route = [route1, route2]
 color = ['y' , 'r']
-fig, ax = ox.plot_graph_routes(G, route, route_colors=color, route_linewidth=6, node_size=0)"""
+fig, ax = ox.plot_graph_routes(G, route, route_colors=color, route_linewidth=6, node_size=0)
 
-df = pd.read_csv('nyc-navigation/data/datweight.csv')
+'''df = pd.read_csv('nyc-navigation/data/datweight.csv')
 
 substr = r'^\d+'
 
@@ -91,4 +91,4 @@ for i in range(df.shape[0]):
 df.to_csv('nyc-navigation/data/datweight_2.csv')
 
 #df['filtered_street'][0] = df['filtered_street'][0].replace(substr, num2words(df['filtered_street'][0].findall(substr)), to='ordinal_num'), regex=True)
-#print(df)
+#print(df)'''
