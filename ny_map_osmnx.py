@@ -39,12 +39,6 @@ class NYMapOSMnx:
             return False
         elif destination not in self.df.name:
             return False
-<<<<<<< HEAD
-            
-=======
-
-
->>>>>>> a89ae3c45e8c175903cf2dd404cb30a598b22600
 
     def safest_way(self, origin, destination, short=False):                                             # select safest route
 

@@ -51,7 +51,7 @@ class Preprocessing:
         self.create_edge_csv_file(edges=edges_list, path='nyc-navigation/data/edges_new.csv')
         edges = self.import_csv_file('nyc-navigation/data/edges_new.csv')
 
-        df_B=(df.rename(columns={"on_street_name":"name", "SUM":"danger_weight"}))
+        df_B=(df.rename(columns={"filtered_street":"name", "WEIGHT":"danger_weight"}))
         df_merged=edges.merge(right=df_B,
                             how='left', # if an entry is in A, but not in B, add NA values
                             on=["name"],  # property to merge on

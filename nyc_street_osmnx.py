@@ -88,7 +88,7 @@ for i in range(df.shape[0]):
     if a[i]:
         df['filtered_street'][i] = re.sub(substr, a[i], df['filtered_street'][i])
         
-
+df.to_csv('nyc-navigation/data/datweight_2.csv')
 
 #df['filtered_street'][0] = df['filtered_street'][0].replace(substr, num2words(df['filtered_street'][0].findall(substr)), to='ordinal_num'), regex=True)
 #print(df)
