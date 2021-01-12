@@ -2,6 +2,8 @@ import networkx as nx
 import osmnx as ox
 import requests
 import pandas as pd
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 from shapely.geometry import LineString, mapping
@@ -55,7 +57,7 @@ class NYMapOSMnx:
         print(type(a))
         print(destination)
         #We create a graphml file and save every node/edges in it then with with this line we just load it
-        G = ox.io.load_graphml(filepath='nyc-navigation/data/ml.graphml')
+        G = ox.io.load_graphml(filepath='data/ml.graphml')
         
         origin_node = ox.get_nearest_node(G, origin)
         destination_node = ox.get_nearest_node(G, destination)
@@ -71,13 +73,14 @@ class NYMapOSMnx:
             route2 = ox.shortest_path(G, origin_node, destination_node, weight='length')                                   #shortest road
             route = [route1, route2]
             colors = ['r', 'y']
-            fig, ax = ox.plot_graph_routes(G, route, route_colors=colors, route_linewidth=6, node_size=0)        # plot the safest road
+            #fig, ax = ox.plot_graph_routes(G, route, route_colors=colors, route_linewidth=6, node_size=0)
+            return route1,route2       # plot the safest road
 
         else:
             
-            fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
+            #fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
             
-        return fig,txt,route_risk
+            return route1
 
 origin = {'lat': 40.89, 'lng': 45.8788}
 print(origin['lat'], origin['lng'])
