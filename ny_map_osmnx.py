@@ -23,6 +23,11 @@ center = (40.7127837,-74.0059413)
 
 class NYMapOSMnx:
 
+    def __init__(self):
+        self.df = pd.read_csv('data/edges_of_nyc.csv')
+   ## self.G = ox.graph_from_place(place, network_type='drive') do we need this ? 
+
+
     def creat_graph(self, place: str):
         """This function will create the graph of New York and return it"""
 
