@@ -47,7 +47,7 @@ class NYMapOSMnx:
         elif destination not in self.df.name:
             return False
 
-    def safest_way(self, origin, destination, short=False):                                             # select safest route
+    def safest_way(self,G, origin, destination, short=False):                                             # select safest route
 
         origin_node = ox.get_nearest_node(G, origin) 
         destination_node = ox.get_nearest_node(G, destination)

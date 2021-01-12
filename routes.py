@@ -3,6 +3,7 @@ from flask import Flask, request, render_template,flash
 from flask_bootstrap import Bootstrap
 import os
 import json
+from ny_map_osmnx import NYMapOSMnx
 from flask_wtf.csrf import CSRFProtect
 
 #csrf = CSRFProtect()
@@ -26,7 +27,9 @@ def home():
 def get_post_json():
     
     response = request.get_json(force=True)
-    print(response)
+    osmnx = NYMapOSMnx
+    print(response['origin'])
+    result = osmnx.safest_way(response['origin'],response['destination'],False)
     return render_template("home.html",data = response)
     #coordinate = isPresent(origin,destination)
     #result = safest_way(origin,destination)
