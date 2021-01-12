@@ -4,33 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
     <title>Nyc-navigation</title>
 </head>
 <body class="container">
-  
+
 <div class="row">
 
     <h1 style="margin-top:5rem;text-align:center;margin-bottom:5rem">Discover the safest path for you desired destination {{message}}</h1>
-    {% with messages = get_flashed_messages(with_categories=true) %}
-  {% if messages %}
-    <ul class=flashes>
-    {% for category, message in messages %}
-      <li class="{{ category }}">{{ message }}</li>
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endwith %}
-    <form action="/test" class="row center-block" method="post">
-      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
-        <div class="col-sm-6 ">
-          <input type="text" class="form-control" placeholder="Origin" aria-label="Origin" name="origin" value="{{request.form.origin}}">
-        </div>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" placeholder="Destination" aria-label="Destination" name="destination" value="{{request.form.destination}}">
-        </div>
-        <button style='margin-top:2rem;'type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <div id="map" style="height: 500px;"></div>
+
 
 </div>
 </body>
+<script type="text/javascript">
+  var map = L.map('map').setView([40.712, -74.006], 11);
+  var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+  });
+var newMarkerOrigin
+var newMarkerDestination
+var marker = {}
+var nbrClick = 0;
+  map.on('click', 
+    function(e){
+      nbrClick ++;
+
+    if (nbrClick%2==0) {
+      var newMarkerOrigin = L.marker(e.latlng, {draggable:'true'}).addTo(map)
+      marker['origin'] = []
+      marker['origin'].push(newMarkerOrigin._latlng)
+      console.log(newMarkerOrigin)
+    } else if(nbrClick>2) {
+      // Get reckt le temps de trouver une solution
+      document.location.reload()
+    }
+     else {
+      var newMarkerDestination = L.marker(e.latlng, {draggable:'true'}).addTo(map)
+      marker['destination'] = []
+      marker['destination'].push(newMarkerDestination._latlng)
+      const url = '/get_post_json';
+      const xhr = new XMLHttpRequest();
+      xhr.open('get','/get_post_json',true);
+      xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+      data  = JSON.stringify(marker)
+      console.log(marker,'data')
+      xhr.send(marker)
+    }
+});
+  // Now add the layer onto the map
+  map.addLayer(layer);
+</script>
 </html>
