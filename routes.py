@@ -5,12 +5,16 @@ import os
 import json
 from flask_wtf.csrf import CSRFProtect
 
+from ny_map_osmnx import NYMapOSMnx
+
 #csrf = CSRFProtect()
 
 app = Flask(__name__)
 #app.config['SECRET_KEY'] = 'any secret string'
 Bootstrap(app)
 #csrf.init_app(app)
+
+osmnx = NYMapOSMnx()
 
 """[Home route]
 
@@ -25,8 +29,9 @@ def home():
 @app.route('/get_post_json',methods=["GET", "POST"])
 def get_post_json():
     
+    osmnx.safest_way(response['origin'], response['destination'])
     response = request.get_json(force=True)
-    print(response)
+    print(response['origin'], response['destination'])
     return render_template("home.html",data = response)
     #coordinate = isPresent(origin,destination)
     #result = safest_way(origin,destination)

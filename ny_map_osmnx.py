@@ -47,7 +47,7 @@ class NYMapOSMnx:
         elif destination not in self.df.name:
             return False
 
-    def safest_way(self, origin, destination, short=False):                                             # select safest route
+    def safest_way(self, G, origin, destination, short=False):                                             # select safest route
 
         origin_node = ox.get_nearest_node(G, origin) 
         destination_node = ox.get_nearest_node(G, destination)
@@ -70,3 +70,6 @@ class NYMapOSMnx:
             fig, ax = ox.plot_graph_route(G, routes=route1, route_color='r',route_linewidth=6, node_size=0)
             
         return fig,txt,route_risk
+
+origin = {'lat': 40.89, 'lng': 45.8788}
+print(origin['lat'], origin['lng'])
