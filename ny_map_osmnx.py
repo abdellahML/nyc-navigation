@@ -4,6 +4,10 @@ import requests
 import pandas as pd
 import matplotlib.cm as cm
 import matplotlib.colors as colors
+from shapely.geometry import LineString, mapping
+import json
+from ipyleaflet import *
+
 
 
 ####Create a class path who will define our function for the project.
@@ -14,7 +18,8 @@ import matplotlib.colors as colors
 ### else if it exist we should check for the safest path ( maybe call another function to keep it short)
 ## Your should return the plot of the path for the template(safest_path.html) it's already waiting for the response
 place = 'New york city,New York, USA'
-G = ox.graph_from_place(place, network_type='drive')
+center = (40.7127837,-74.0059413)
+##G = ox.graph_from_place(place, network_type='drive')
 
 class NYMapOSMnx:
     def __init__(self):
@@ -29,9 +34,6 @@ class NYMapOSMnx:
         G = ox.graph_from_place(place, network_type='drive')
         return G
 
-
-
-
     def isPresent(self,origin,destination):
         if origin in self.df.name and destination in self.df.name :
             ## call getSafest
@@ -45,7 +47,6 @@ class NYMapOSMnx:
         route = ox.shortest_path(G, origin, destination, weight='danger_weight')
         fig, ax = ox.plot_graph_route(G, route, route_color='y', route_linewidth=6, node_size=0)        # plot the safest road
         route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route, 'danger_weight')))      # print the risk on this road
-        print('The risk on this Route is ', route_risk, ' accidents per year')
-place = 'New york city,New York, USA'
-G = ox.graph_from_place(place, network_type='drive')
-print(G.head(100))
+        return 'The risk on this Route is '+ route_risk +' accidents per year', fig
+
+
