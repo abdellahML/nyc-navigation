@@ -26,12 +26,12 @@
 var newMarkerOrigin
 var newMarkerDestination
 var nbrClick = 0;
-var marker = [{}];
+var marker = [];
   map.on('click', 
     function(e){
     
     if (nbrClick%2==0) {
-      var markerRed = L.icon({iconUrl:'https://discord.com/channels/@me/786256585688743966/798515397838110741', 
+      var markerRed = L.icon({iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png', 
                               markerColor:'red', 
                               prefix: 'fa', 
                               icon:'school'})
@@ -44,8 +44,8 @@ var marker = [{}];
       document.location.reload()
     }
      else {
-      https://discord.com/channels/@me/786256585688743966/798515463310540810
-      var markerRed = L.icon({iconUrl:'https://discord.com/channels/@me/786256585688743966/798515463310540810', 
+      
+      var markerRed = L.icon({iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png', 
                               markerColor:'red', 
                               prefix: 'fa', 
                               icon:'school'})
@@ -57,7 +57,7 @@ var marker = [{}];
       const xhr = new XMLHttpRequest();
       xhr.open('POST','/get_post_json',true);
       xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-      data  = JSON.stringify({'destination': marker['destination'], 'origin':marker['origin']})
+      data  = JSON.stringify([marker['destination'],marker['origin']])
       console.log(data,'data')
       xhr.send(data)
     }

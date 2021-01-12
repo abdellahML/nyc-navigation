@@ -22,11 +22,6 @@ center = (40.7127837,-74.0059413)
 ##G = ox.graph_from_place(place, network_type='drive')
 
 class NYMapOSMnx:
-    def __init__(self):
-        self.origin = origin
-        self.destination = destination
-        self.df = pd.read_csv('data/edges_of_nyc.csv')
-   ## self.G = ox.graph_from_place(place, network_type='drive') do we need this ? 
 
     def creat_graph(self, place: str):
         """This function will create the graph of New York and return it"""
@@ -47,27 +42,35 @@ class NYMapOSMnx:
         elif destination not in self.df.name:
             return False
 
-    def safest_way(self, G, origin, destination, short=False):                                             # select safest route
 
-        origin_node = ox.get_nearest_node(G, origin) 
+    def safest_way(self, origin, destination, short=False):                                             # select safest route
+
+        a,b = origin
+        print(origin)
+        print(type(a))
+        print(destination)
+        #We create a graphml file and save every node/edges in it then with with this line we just load it
+        G = ox.io.load_graphml(filepath='nyc-navigation/data/ml.graphml')
+        
+        origin_node = ox.get_nearest_node(G, origin)
         destination_node = ox.get_nearest_node(G, destination)
 
         nx.set_edge_attributes(G, 0, 'danger_weight')
 
-        route1 = ox.shortest_path(G, origin, destination, weight='danger_weight')
+        route1 = ox.shortest_path(G, origin_node, destination_node, weight='danger_weight')
         route_risk = int(sum(ox.utils_graph.get_route_edge_attributes(G, route1, 'danger_weight')))              # print the risk on this road
         txt = 'The risk on this Route is {} accidents per year'.format(route_risk)
 
         if short:
 
-            route2 = ox.shortest_path(G, origin, destination, weight='length')                                   #shortest road
+            route2 = ox.shortest_path(G, origin_node, destination_node, weight='length')                                   #shortest road
             route = [route1, route2]
             colors = ['r', 'y']
             fig, ax = ox.plot_graph_routes(G, route, route_colors=colors, route_linewidth=6, node_size=0)        # plot the safest road
 
         else:
             
-            fig, ax = ox.plot_graph_route(G, routes=route1, route_color='r',route_linewidth=6, node_size=0)
+            fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
             
         return fig,txt,route_risk
 
