@@ -6,9 +6,12 @@ import pandas as pd
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 
+import re
+from num2words import num2words
+
 import csv
 
-G = ox.graph_from_place('New york city, New York, USA', network_type='drive')
+"""G = ox.graph_from_place('New york city, New York, USA', network_type='drive')
 
 #G = ox.add_edge_speeds(G)
 
@@ -61,4 +64,31 @@ route1 = ox.shortest_path(G, origin_node, destination_node, weight='danger_weigh
 route2 = ox.shortest_path(G, origin_node, destination_node, weight='length')
 route = [route1, route2]
 color = ['y' , 'r']
-fig, ax = ox.plot_graph_routes(G, route, route_colors=color, route_linewidth=6, node_size=0)
+fig, ax = ox.plot_graph_routes(G, route, route_colors=color, route_linewidth=6, node_size=0)"""
+
+df = pd.read_csv('nyc-navigation/data/datweight.csv')
+
+substr = r'^\d+'
+
+a = []
+for i in range(df.shape[0]):
+    value = re.findall(substr, df['filtered_street'][i])
+    value = ''.join(value)
+    a.append(value)
+
+#print(num2words(a[4], to='ordinal_num'))       #to_replace=r'^ba.$', value='new', regex=True
+
+for i in range(len(a)):
+    if a[i]:
+        a[i] = num2words(a[i], to='ordinal_num')
+        
+
+for i in range(df.shape[0]):
+
+    if a[i]:
+        df['filtered_street'][i] = re.sub(substr, a[i], df['filtered_street'][i])
+        
+
+
+#df['filtered_street'][0] = df['filtered_street'][0].replace(substr, num2words(df['filtered_street'][0].findall(substr)), to='ordinal_num'), regex=True)
+#print(df)
