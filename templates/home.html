@@ -29,10 +29,13 @@ var nbrClick = 0;
 var marker = [{}];
   map.on('click', 
     function(e){
-      
     
     if (nbrClick%2==0) {
-      var newMarkerOrigin = L.marker(e.latlng, {draggable:'true'}).addTo(map)
+      var markerRed = L.icon({iconUrl:'https://discord.com/channels/@me/786256585688743966/798515397838110741', 
+                              markerColor:'red', 
+                              prefix: 'fa', 
+                              icon:'school'})
+      var newMarkerOrigin = L.marker(e.latlng,{icon:markerRed} ,{draggable:'true'}).addTo(map)
       marker['origin'] = []
       marker['origin'].push(newMarkerOrigin._latlng)
       console.log(newMarkerOrigin, 'origin')
@@ -41,7 +44,12 @@ var marker = [{}];
       document.location.reload()
     }
      else {
-      var newMarkerDestination = L.marker(e.latlng, {draggable:'true'}).addTo(map)
+      https://discord.com/channels/@me/786256585688743966/798515463310540810
+      var markerRed = L.icon({iconUrl:'https://discord.com/channels/@me/786256585688743966/798515463310540810', 
+                              markerColor:'red', 
+                              prefix: 'fa', 
+                              icon:'school'})
+      var newMarkerDestination = L.marker(e.latlng, {icon:markerRed}, {draggable:'true'}).addTo(map)
       marker['destination'] = []
       marker['destination'].push(newMarkerDestination._latlng) 
       console.log(newMarkerDestination, 'destination')
