@@ -22,12 +22,12 @@ Returns:
 def home():
     return render_template("home.html",map=map)
 
-@app.route('/get_post_json',methods=["GET"])
+@app.route('/get_post_json',methods=["GET", "POST"])
 def get_post_json():
-
-  response = request.json
-  print(response)
-  return render_template("home.html",data = response)
+    
+    response = request.get_json(force=True)
+    print(response)
+    return render_template("home.html",data = response)
     #coordinate = isPresent(origin,destination)
     #result = safest_way(origin,destination)
     # if coordinate != True:
