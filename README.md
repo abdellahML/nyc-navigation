@@ -11,7 +11,7 @@ In this previous project we have applied all the first required steps to do a da
 ### Description
 In this project we create a Python script/application to find the safest path between the two given geographical locations in New York city.  
   
-The dangerosity has been defined as the potential number of accidents on a specific path based on the number of accidents occured each year on that specific path.  
+The dangerosity has been defined as the potential number of accidents on a specific path based on the number of accidents occured per year on that specific path.  
 The number of accident per street was previously weighted according to the severity of each accident.  
   
 This algorithm find the least dangerous path and a graph of edges and vertices mapping to roads and intersections is given (Using OSMNX module).  
