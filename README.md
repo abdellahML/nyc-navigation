@@ -24,8 +24,8 @@ An additional prepocessing phase has been created in the `preprocessing.py` file
 ### Link to the deployed version
 
 
-### Libraries & requirements
->Python, pandas, numpy   
+### Libraries & the requirements.txt
+>Python, pandas, numpy, matplotlib, shapely.geometry, ipyleaflet, typing,..     
 >Flask  
 >request  
 >render_template  
@@ -35,7 +35,10 @@ An additional prepocessing phase has been created in the `preprocessing.py` file
 >os
 >Bootstrap from flask_bootstrap  
 >NYMapOSMnx from ny_map_osmnx  
->CSRFProtect from flask_wtf.csrf
+>CSRFProtect from flask_wtf.csrf  
+>networkx  
+>osmnx   
+
 
 
 ### Authors
