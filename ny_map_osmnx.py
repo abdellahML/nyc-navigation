@@ -9,7 +9,6 @@ import json
 from ipyleaflet import *
 
 
-
 ####Create a class path who will define our function for the project.
 ### Our class should take as parameter the origin and destination at least
 
@@ -77,7 +76,7 @@ class NYMapOSMnx:
             
             fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
             
-        return fig,txt,route_risk
+        return route1
 
 origin = {'lat': 40.89, 'lng': 45.8788}
 print(origin['lat'], origin['lng'])
