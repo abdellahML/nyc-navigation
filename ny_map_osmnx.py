@@ -79,8 +79,13 @@ class NYMapOSMnx:
         else:
             
             #fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
-            
-            return route1
+            long = [] 
+            lat = []  
+            for i in route1:
+                point = G.nodes[i]
+                long.append(point['x'])
+                lat.append(point['y'])
+            return long,lat
 
 origin = {'lat': 40.89, 'lng': 45.8788}
 print(origin['lat'], origin['lng'])
