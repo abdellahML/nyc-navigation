@@ -2,6 +2,8 @@ import networkx as nx
 import osmnx as ox
 import requests
 import pandas as pd
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 from shapely.geometry import LineString, mapping
@@ -23,7 +25,7 @@ center = (40.7127837,-74.0059413)
 class NYMapOSMnx:
 
     def __init__(self):
-        self.df = pd.read_csv('data/edges_of_nyc.csv')
+        self.df = pd.read_csv('nyc-navigation/data/edges_of_nyc.csv')
    ## self.G = ox.graph_from_place(place, network_type='drive') do we need this ? 
 
 
@@ -70,13 +72,14 @@ class NYMapOSMnx:
             route2 = ox.shortest_path(G, origin_node, destination_node, weight='length')                                   #shortest road
             route = [route1, route2]
             colors = ['r', 'y']
-            fig, ax = ox.plot_graph_routes(G, route, route_colors=colors, route_linewidth=6, node_size=0)        # plot the safest road
+            #fig, ax = ox.plot_graph_routes(G, route, route_colors=colors, route_linewidth=6, node_size=0)
+            return route1,route2       # plot the safest road
 
         else:
             
-            fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
+            #fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
             
-        return route1
+            return route1
 
 origin = {'lat': 40.89, 'lng': 45.8788}
 print(origin['lat'], origin['lng'])
