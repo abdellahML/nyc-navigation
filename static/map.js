@@ -37,11 +37,20 @@ map.on('click',
     console.log(newMarkerDestination, 'destination')
     const url = '/get_post_json';
     const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == XMLHttpRequest.DONE) {
+        console.log(xhr,'im xhr')
+          result = xhr.response;
+          result = result.split(',');
+          console.log(result,'coucou');
+      }
+  }
     xhr.open('POST','/get_post_json',true);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     data  = JSON.stringify([marker['destination'],marker['origin']])
     console.log(data,'data')
     xhr.send(data)
+
   }
   nbrClick ++;
 });
