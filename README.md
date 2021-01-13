@@ -27,16 +27,15 @@ An additional prepocessing phase has been created in the `preprocessing.py` file
 ### Libraries & requirements
 >Python, pandas, numpy   
 >Flask  
->Request  
+>request  
 >render_template  
 >flash  
 >jsonify  
+>json  
+>os
 >Bootstrap from flask_bootstrap  
 >NYMapOSMnx from ny_map_osmnx  
 >CSRFProtect from flask_wtf.csrf
-
-
-
 
 
 ### Authors
