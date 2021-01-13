@@ -34,7 +34,7 @@ class NYMapOSMnx:
         """This function will create the graph of New York and return it"""
 
         place = 'New york city, New York, USA'
-        G = ox.graph_from_place(place, network_type='drive')
+        G = ox.graph_from_place(place, network_type='drive',retain_all=True)
         return G
 
 
@@ -58,6 +58,8 @@ class NYMapOSMnx:
         print(destination)
         #We create a graphml file and save every node/edges in it then with with this line we just load it
         G = ox.io.load_graphml(filepath='data/ml.graphml')
+        # place = 'New york city, New York, USA'
+        # G = ox.graph_from_place(place, network_type='drive')
         
         origin_node = ox.get_nearest_node(G, origin)
         destination_node = ox.get_nearest_node(G, destination)

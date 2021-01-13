@@ -69,7 +69,8 @@ function printWay(result){
     "color": "#ff00ff",
     "paused": false,
     "reverse": false,
-    "hardwareAccelerated": true
+    "hardwareAccelerated": true,
+    "smoothFactor":0.1
   });
 
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
