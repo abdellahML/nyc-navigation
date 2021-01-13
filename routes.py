@@ -31,9 +31,11 @@ def get_post_json():
     response = request.get_json(force=True)
     origin = tuple(response[0][0].values())
     destination = tuple(response[1][0].values())
-    result = osmnx.safest_way(origin, destination, False)
-    result = ','.join(map(str, result))
-    return json.dumps( {"data": result})
+    long,lat = osmnx.safest_way(origin, destination, False)
+    long = ','.join(map(str, long))
+    lat = ','.join(map(str, lat))
+    print(long,lat)
+    return json.dumps( {"long": long,"lat" :lat})
 
 
 if __name__ == "__main__":

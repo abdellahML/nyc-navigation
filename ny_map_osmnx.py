@@ -33,7 +33,7 @@ class NYMapOSMnx:
         """This function will create the graph of New York and return it"""
 
         place = 'New york city, New York, USA'
-        G = ox.graph_from_place(place, network_type='drive')
+        G = ox.graph_from_place(place, network_type='drive',retain_all=True)
         return G
 
 
@@ -56,7 +56,10 @@ class NYMapOSMnx:
         print(type(a))
         print(destination)
         #We create a graphml file and save every node/edges in it then with with this line we just load it
-        G = ox.io.load_graphml(filepath='nyc-navigation/data/ml.graphml')
+
+        G = ox.io.load_graphml(filepath='data/ml.graphml')
+        # place = 'New york city, New York, USA'
+        # G = ox.graph_from_place(place, network_type='drive')
         
         origin_node = ox.get_nearest_node(G, origin)
         destination_node = ox.get_nearest_node(G, destination)
@@ -78,8 +81,13 @@ class NYMapOSMnx:
         else:
             
             #fig, ax = ox.plot_graph_route(G, route=route1, route_color='r',route_linewidth=6, node_size=0)
-            
-            return route1
+            long = [] 
+            lat = []  
+            for i in route1:
+                point = G.nodes[i]
+                long.append(point['x'])
+                lat.append(point['y'])
+            return long,lat
 
 origin = {'lat': 40.89, 'lng': 45.8788}
 print(origin['lat'], origin['lng'])

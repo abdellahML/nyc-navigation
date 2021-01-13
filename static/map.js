@@ -1,6 +1,6 @@
-var map = L.map('map').setView([40.712, -74.006], 11);
-var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+const map = L.map('map').setView([40.712, -74.006], 15);
+var layer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 });
 
 
@@ -13,11 +13,8 @@ var marker = [];
 map.on('click', 
   function(e){
   if (nbrClick%2==0) {
-    var markerRed = L.icon({iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png', 
-                            markerColor:'red', 
-                            prefix: 'fa', 
-                            icon:'school'})
-    var newMarkerOrigin = L.marker(e.latlng,{icon:markerRed} ,{draggable:'true'}).addTo(map)
+
+    var newMarkerOrigin = L.marker(e.latlng,{draggable:'true'}).addTo(map)
     marker['origin'] = []
     marker['origin'].push(newMarkerOrigin._latlng)
     console.log(newMarkerOrigin, 'origin')
@@ -26,12 +23,7 @@ map.on('click',
     document.location.reload()
   }
    else {
-    
-    var markerRed = L.icon({iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png', 
-                            markerColor:'red', 
-                            prefix: 'fa', 
-                            icon:'school'})
-    var newMarkerDestination = L.marker(e.latlng, {icon:markerRed}, {draggable:'true'}).addTo(map)
+    var newMarkerDestination = L.marker(e.latlng,{draggable:'true'}).addTo(map)
     marker['destination'] = []
     marker['destination'].push(newMarkerDestination._latlng) 
     console.log(newMarkerDestination, 'destination')
@@ -40,9 +32,19 @@ map.on('click',
     xhr.onreadystatechange = function() {
       if (xhr.readyState == XMLHttpRequest.DONE) {
         console.log(xhr,'im xhr')
-          result = xhr.response;
-          result = result.split(',');
-          console.log(result,'coucou');
+          response = xhr.response;
+          
+          response = JSON.parse(response)
+          
+          long = response.long.split(',');
+          lat = response.lat.split(',');
+          console.log(long,lat)
+
+          result = []
+          for ( var i = 0; i < long.length; i++ ){
+            result.push( [lat[i],long[i] ] );
+          }
+          printWay(result)
       }
   }
     xhr.open('POST','/get_post_json',true);
@@ -56,3 +58,25 @@ map.on('click',
 });
 // Now add the layer onto the map
 map.addLayer(layer);
+
+
+function printWay(result){
+
+  console.log(result,'any array in here ?')
+  const path = L.polyline(result, {
+    "delay": 400,
+    "weight": 5,
+    "color": "#ff00ff",
+    "paused": false,
+    "reverse": false,
+    "hardwareAccelerated": true,
+    "smoothFactor":0.1
+  });
+
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  
+  map.addLayer(path);
+  map.fitBounds(path.getBounds())
+}
