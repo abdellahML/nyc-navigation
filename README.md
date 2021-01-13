@@ -24,7 +24,6 @@ You can either enter your origin and destination locations in the `routes.py` an
 
 An additional prepocessing phase has been added to addapt our data set to the OSMNX data base.
 
-### Link to the deployed version
 
 
 ### Libraries & the requirements.txt
