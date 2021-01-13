@@ -39,9 +39,10 @@ map.on('click',
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (xhr.readyState == XMLHttpRequest.DONE) {
-          alert(xhr.response.data);
-          var adresseActuelle = window.location;
-          adresseActuelle = '/safest_path';
+        console.log(xhr,'im xhr')
+          result = xhr.response;
+          result = result.split(',');
+          console.log(result,'coucou');
       }
   }
     xhr.open('POST','/get_post_json',true);
@@ -49,6 +50,7 @@ map.on('click',
     data  = JSON.stringify([marker['destination'],marker['origin']])
     console.log(data,'data')
     xhr.send(data)
+
   }
   nbrClick ++;
 });
