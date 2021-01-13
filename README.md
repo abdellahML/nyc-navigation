@@ -19,7 +19,7 @@ An interactive and more friendly  graphical web interface has been created using
 
 You can either enter your origin and destination locations in the `routes.py` and run the file or select directly your locations in the map on the interactive interface.  
 
-An additional prepocessing phase has been created in the `preprocessing.py` file to addapt our data to the OSMNX data base.
+An additional prepocessing phase has been added to addapt our data set to the OSMNX data base.
 
 ### Link to the deployed version
 
