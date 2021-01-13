@@ -10,12 +10,18 @@ In this previous project we have applied all the first required steps to do a da
 
 ### 2. Description
 In this project we create a Python script/application to find the safest path between the two given geographical locations in New York city.  
+The dangerosity has been defined as the potential number of accidents on a specific path based on the numer of accidents occured per year on that specific path.
 This algorithm find the least dangerous path and a graph of edges and vertices mapping to roads and intersections is given (Using OSMNX module).  
 An interactive and more friendly web graphical interface has been created using HTML and HTTP request.  
 
 
 ## Usage
 
+You can either enter your origin and destination locations in the `routes.py` and run the file or select directly your locations in the map on the interactive interface.  
+
+An additional prepocessing phase has been created in the `preprocessing.py` file to addapt our data to the OSMNX data base.
+
+## Link to the deployed version
 
 
 ### Authors
