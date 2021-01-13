@@ -23,7 +23,7 @@ An additional prepocessing phase has been created in the `preprocessing.py` file
 
 ### Link to the deployed version
 
-### Libraries & requirement
+### Libraries & requirements
 
 
 
