@@ -20,7 +20,7 @@ An interactive and more friendly  graphical web interface has been created using
 
 ### Usage
 
-You can either enter your origin and destination locations in the `routes.py` and run the file or select directly your locations in the map on the interactive interface.  
+You have to select (left click) directly your locations (an origin and a destination) in the map on the interactive interface and the safest path is found and shown on the map. 
 
 An additional prepocessing phase has been added to addapt our data set to the OSMNX data base.
 
@@ -40,6 +40,12 @@ An additional prepocessing phase has been added to addapt our data set to the OS
 >CSRFProtect from flask_wtf.csrf  
 >networkx  
 >osmnx   
+
+### Pending things to do
+
+There is not enough nodes to perfectly fit the shape of some streets in the OSNMX data base.  
+Therefore, some optimal paths are ponctually visually off road on the map but remain the right solution.  
+The alternative would be to find a module that outperforms the OSMNX.
 
 
 
