@@ -32,6 +32,6 @@ An additional prepocessing phase has been created in the `preprocessing.py` file
 
 *Abdellah El Ghibzouri, junior AI developer at BeCode;*
 
-*Ebubekir Kocadag, junior AI developer at BeCode.*
+*Ebubekir Kocadag, junior AI developer at BeCode;*
 
 *Pierre Wasilewski, junior AI developer at BeCode.*
