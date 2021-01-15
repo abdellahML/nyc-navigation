@@ -57,4 +57,6 @@ The alternative would be to find a module that outperforms the OSMNX.
 
 *Ebubekir Kocadag, junior AI developer at BeCode;*
 
+*Frédéric Fourré, junior AI developer at BeCode;*
+
 *Pierre Wasilewski, junior AI developer at BeCode.*
